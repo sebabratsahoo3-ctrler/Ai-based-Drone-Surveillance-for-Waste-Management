@@ -1,0 +1,57 @@
+{
+  "environment": {
+    "roads": true,
+    "public_markets": true,
+    "waste_bins": true,
+    "illegal_dumping_zones": true,
+    "rivers_and_drainage": true,
+    "industrial_waste_areas": true,
+    "smoke_and_fire": true,
+    "waterlogging": true,
+    "crowded_sanitation_zones": true,
+    "hazardous_waste_areas": true,
+    "nighttime_dumping": true,
+    "dynamic_pedestrians": true,
+    "vehicle_dumping": true
+  },
+  "domain_randomization": [
+    "weather_variation",
+    "lighting_variation",
+    "drone_altitude_changes",
+    "camera_angle_changes",
+    "crowd_density_variation",
+    "vehicle_density_variation",
+    "seasonal_conditions",
+    "smoke_density",
+    "rain_intensity",
+    "water_level"
+  ],
+  "scenarios": [
+    {
+      "name": "market_overflowing_bins",
+      "events": ["overflowing_bin", "roadside_littering", "sensitive_zone_accumulation"],
+      "prompt": "Overflowing garbage bin detected near market entrance."
+    },
+    {
+      "name": "night_vehicle_dumping",
+      "events": ["vehicle_dumping", "night_dumping", "drain_or_river_dumping"],
+      "prompt": "Suspicious dumping activity observed from a parked vehicle."
+    },
+    {
+      "name": "waste_fire_smoke",
+      "events": ["smoke_or_fire", "waste_burning", "crowd_near_hazard"],
+      "prompt": "Smoke detected near municipal waste accumulation area."
+    },
+    {
+      "name": "drain_blockage_waterlogging",
+      "events": ["drain_blockage", "waterlogging", "environmental_contamination"],
+      "prompt": "Drain blockage likely causing water stagnation risk."
+    },
+    {
+      "name": "industrial_chemical_spill",
+      "events": ["chemical_spill", "toxic_leakage", "hazardous_waste_exposure"],
+      "prompt": "Possible toxic leakage in industrial waste zone."
+    }
+  ]
+}
+

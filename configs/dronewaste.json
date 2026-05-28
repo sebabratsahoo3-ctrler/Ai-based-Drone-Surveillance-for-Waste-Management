@@ -1,0 +1,16 @@
+{
+  "name": "dronewaste",
+  "version": "v1.0",
+  "dataset_root": "D:/Most Related works to DASWM Project/Dataset DASWM",
+  "annotations_file": "dronewaste_v1.0.json",
+  "images_dir": "images",
+  "info_file": "info.txt",
+  "zenodo_url": "https://doi.org/10.5281/zenodo.17045559",
+  "stats": {
+    "images": 4993,
+    "annotations": 5135,
+    "categories": 20,
+    "sites": 17
+  },
+  "notes": "Override dataset_root with DRONEWASTE_DATASET_ROOT environment variable if your path differs."
+}

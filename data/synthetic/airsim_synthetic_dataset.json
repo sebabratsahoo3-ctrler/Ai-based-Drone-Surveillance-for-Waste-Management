@@ -1,0 +1,3842 @@
+[
+  {
+    "sample_id": "market_overflowing_bins-0000",
+    "image_ref": "airsim://synthetic/market_overflowing_bins/frame_0000.png",
+    "timestamp": "2026-05-24T08:43:15.608670+00:00",
+    "gps": {
+      "latitude": 12.976394,
+      "longitude": 77.59325
+    },
+    "altitude_m": 36.0,
+    "lighting": "night",
+    "weather": "rain",
+    "scenario": "market_overflowing_bins",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Overflowing garbage bin detected near market entrance.",
+      "event_candidates": [
+        {
+          "event_type": "overflowing_bin",
+          "confidence": 0.815,
+          "scene_description": "Overflowing garbage bin detected near market entrance.",
+          "rationale": "Scenario market_overflowing_bins with overflowing_bin cues under night/rain. Randomization factors: lighting_variation, rain_intensity, water_level.",
+          "temporal_evidence": [
+            "overflowing_bin seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-market_overflowing_bins",
+    "severity": "Moderate Trigger",
+    "risk": "high"
+  },
+  {
+    "sample_id": "market_overflowing_bins-0001",
+    "image_ref": "airsim://synthetic/market_overflowing_bins/frame_0001.png",
+    "timestamp": "2026-05-24T08:46:15.608670+00:00",
+    "gps": {
+      "latitude": 12.970318,
+      "longitude": 77.593937
+    },
+    "altitude_m": 34.31,
+    "lighting": "day",
+    "weather": "rain",
+    "scenario": "market_overflowing_bins",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Overflowing garbage bin detected near market entrance.",
+      "event_candidates": [
+        {
+          "event_type": "roadside_littering",
+          "confidence": 0.768,
+          "scene_description": "Overflowing garbage bin detected near market entrance.",
+          "rationale": "Scenario market_overflowing_bins with roadside_littering cues under day/rain. Randomization factors: rain_intensity, seasonal_conditions, camera_angle_changes.",
+          "temporal_evidence": [
+            "roadside_littering seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-market_overflowing_bins",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "market_overflowing_bins-0002",
+    "image_ref": "airsim://synthetic/market_overflowing_bins/frame_0002.png",
+    "timestamp": "2026-05-24T08:49:15.608670+00:00",
+    "gps": {
+      "latitude": 12.972782,
+      "longitude": 77.601693
+    },
+    "altitude_m": 55.35,
+    "lighting": "night",
+    "weather": "haze",
+    "scenario": "market_overflowing_bins",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Overflowing garbage bin detected near market entrance.",
+      "event_candidates": [
+        {
+          "event_type": "sensitive_zone_accumulation",
+          "confidence": 0.691,
+          "scene_description": "Overflowing garbage bin detected near market entrance.",
+          "rationale": "Scenario market_overflowing_bins with sensitive_zone_accumulation cues under night/haze. Randomization factors: vehicle_density_variation, crowd_density_variation, drone_altitude_changes.",
+          "temporal_evidence": [
+            "sensitive_zone_accumulation seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-market_overflowing_bins",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "market_overflowing_bins-0003",
+    "image_ref": "airsim://synthetic/market_overflowing_bins/frame_0003.png",
+    "timestamp": "2026-05-24T08:52:15.608670+00:00",
+    "gps": {
+      "latitude": 12.977635,
+      "longitude": 77.594022
+    },
+    "altitude_m": 40.2,
+    "lighting": "dusk",
+    "weather": "cloudy",
+    "scenario": "market_overflowing_bins",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Overflowing garbage bin detected near market entrance.",
+      "event_candidates": [
+        {
+          "event_type": "overflowing_bin",
+          "confidence": 0.861,
+          "scene_description": "Overflowing garbage bin detected near market entrance.",
+          "rationale": "Scenario market_overflowing_bins with overflowing_bin cues under dusk/cloudy. Randomization factors: water_level, crowd_density_variation, weather_variation.",
+          "temporal_evidence": [
+            "overflowing_bin seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-market_overflowing_bins",
+    "severity": "Moderate Trigger",
+    "risk": "high"
+  },
+  {
+    "sample_id": "market_overflowing_bins-0004",
+    "image_ref": "airsim://synthetic/market_overflowing_bins/frame_0004.png",
+    "timestamp": "2026-05-24T08:55:15.608670+00:00",
+    "gps": {
+      "latitude": 12.975362,
+      "longitude": 77.602731
+    },
+    "altitude_m": 40.14,
+    "lighting": "dusk",
+    "weather": "cloudy",
+    "scenario": "market_overflowing_bins",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Overflowing garbage bin detected near market entrance.",
+      "event_candidates": [
+        {
+          "event_type": "roadside_littering",
+          "confidence": 0.635,
+          "scene_description": "Overflowing garbage bin detected near market entrance.",
+          "rationale": "Scenario market_overflowing_bins with roadside_littering cues under dusk/cloudy. Randomization factors: water_level, camera_angle_changes, lighting_variation.",
+          "temporal_evidence": [
+            "roadside_littering seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-market_overflowing_bins",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "market_overflowing_bins-0005",
+    "image_ref": "airsim://synthetic/market_overflowing_bins/frame_0005.png",
+    "timestamp": "2026-05-24T08:58:15.608670+00:00",
+    "gps": {
+      "latitude": 12.972279,
+      "longitude": 77.595894
+    },
+    "altitude_m": 28.19,
+    "lighting": "night",
+    "weather": "clear",
+    "scenario": "market_overflowing_bins",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Overflowing garbage bin detected near market entrance.",
+      "event_candidates": [
+        {
+          "event_type": "sensitive_zone_accumulation",
+          "confidence": 0.83,
+          "scene_description": "Overflowing garbage bin detected near market entrance.",
+          "rationale": "Scenario market_overflowing_bins with sensitive_zone_accumulation cues under night/clear. Randomization factors: seasonal_conditions, crowd_density_variation, smoke_density.",
+          "temporal_evidence": [
+            "sensitive_zone_accumulation seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-market_overflowing_bins",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "market_overflowing_bins-0006",
+    "image_ref": "airsim://synthetic/market_overflowing_bins/frame_0006.png",
+    "timestamp": "2026-05-24T09:01:15.608670+00:00",
+    "gps": {
+      "latitude": 12.973648,
+      "longitude": 77.596702
+    },
+    "altitude_m": 33.38,
+    "lighting": "dusk",
+    "weather": "clear",
+    "scenario": "market_overflowing_bins",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Overflowing garbage bin detected near market entrance.",
+      "event_candidates": [
+        {
+          "event_type": "overflowing_bin",
+          "confidence": 0.674,
+          "scene_description": "Overflowing garbage bin detected near market entrance.",
+          "rationale": "Scenario market_overflowing_bins with overflowing_bin cues under dusk/clear. Randomization factors: water_level, drone_altitude_changes, camera_angle_changes.",
+          "temporal_evidence": [
+            "overflowing_bin seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-market_overflowing_bins",
+    "severity": "Moderate Trigger",
+    "risk": "high"
+  },
+  {
+    "sample_id": "market_overflowing_bins-0007",
+    "image_ref": "airsim://synthetic/market_overflowing_bins/frame_0007.png",
+    "timestamp": "2026-05-24T09:04:15.608670+00:00",
+    "gps": {
+      "latitude": 12.973795,
+      "longitude": 77.602895
+    },
+    "altitude_m": 50.6,
+    "lighting": "night",
+    "weather": "cloudy",
+    "scenario": "market_overflowing_bins",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Overflowing garbage bin detected near market entrance.",
+      "event_candidates": [
+        {
+          "event_type": "roadside_littering",
+          "confidence": 0.886,
+          "scene_description": "Overflowing garbage bin detected near market entrance.",
+          "rationale": "Scenario market_overflowing_bins with roadside_littering cues under night/cloudy. Randomization factors: weather_variation, camera_angle_changes, water_level.",
+          "temporal_evidence": [
+            "roadside_littering seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-market_overflowing_bins",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "market_overflowing_bins-0008",
+    "image_ref": "airsim://synthetic/market_overflowing_bins/frame_0008.png",
+    "timestamp": "2026-05-24T09:07:15.608670+00:00",
+    "gps": {
+      "latitude": 12.974012,
+      "longitude": 77.593662
+    },
+    "altitude_m": 61.53,
+    "lighting": "dusk",
+    "weather": "rain",
+    "scenario": "market_overflowing_bins",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Overflowing garbage bin detected near market entrance.",
+      "event_candidates": [
+        {
+          "event_type": "sensitive_zone_accumulation",
+          "confidence": 0.667,
+          "scene_description": "Overflowing garbage bin detected near market entrance.",
+          "rationale": "Scenario market_overflowing_bins with sensitive_zone_accumulation cues under dusk/rain. Randomization factors: smoke_density, seasonal_conditions, water_level.",
+          "temporal_evidence": [
+            "sensitive_zone_accumulation seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-market_overflowing_bins",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "market_overflowing_bins-0009",
+    "image_ref": "airsim://synthetic/market_overflowing_bins/frame_0009.png",
+    "timestamp": "2026-05-24T09:10:15.608670+00:00",
+    "gps": {
+      "latitude": 12.971396,
+      "longitude": 77.60045
+    },
+    "altitude_m": 46.56,
+    "lighting": "foggy_day",
+    "weather": "haze",
+    "scenario": "market_overflowing_bins",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Overflowing garbage bin detected near market entrance.",
+      "event_candidates": [
+        {
+          "event_type": "overflowing_bin",
+          "confidence": 0.788,
+          "scene_description": "Overflowing garbage bin detected near market entrance.",
+          "rationale": "Scenario market_overflowing_bins with overflowing_bin cues under foggy_day/haze. Randomization factors: vehicle_density_variation, camera_angle_changes, drone_altitude_changes.",
+          "temporal_evidence": [
+            "overflowing_bin seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-market_overflowing_bins",
+    "severity": "Moderate Trigger",
+    "risk": "high"
+  },
+  {
+    "sample_id": "market_overflowing_bins-0010",
+    "image_ref": "airsim://synthetic/market_overflowing_bins/frame_0010.png",
+    "timestamp": "2026-05-24T09:13:15.608670+00:00",
+    "gps": {
+      "latitude": 12.970909,
+      "longitude": 77.593471
+    },
+    "altitude_m": 29.39,
+    "lighting": "night",
+    "weather": "haze",
+    "scenario": "market_overflowing_bins",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Overflowing garbage bin detected near market entrance.",
+      "event_candidates": [
+        {
+          "event_type": "roadside_littering",
+          "confidence": 0.746,
+          "scene_description": "Overflowing garbage bin detected near market entrance.",
+          "rationale": "Scenario market_overflowing_bins with roadside_littering cues under night/haze. Randomization factors: water_level, lighting_variation, seasonal_conditions.",
+          "temporal_evidence": [
+            "roadside_littering seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-market_overflowing_bins",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "market_overflowing_bins-0011",
+    "image_ref": "airsim://synthetic/market_overflowing_bins/frame_0011.png",
+    "timestamp": "2026-05-24T09:16:15.608670+00:00",
+    "gps": {
+      "latitude": 12.979961,
+      "longitude": 77.598291
+    },
+    "altitude_m": 63.84,
+    "lighting": "day",
+    "weather": "clear",
+    "scenario": "market_overflowing_bins",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Overflowing garbage bin detected near market entrance.",
+      "event_candidates": [
+        {
+          "event_type": "sensitive_zone_accumulation",
+          "confidence": 0.657,
+          "scene_description": "Overflowing garbage bin detected near market entrance.",
+          "rationale": "Scenario market_overflowing_bins with sensitive_zone_accumulation cues under day/clear. Randomization factors: rain_intensity, crowd_density_variation, vehicle_density_variation.",
+          "temporal_evidence": [
+            "sensitive_zone_accumulation seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-market_overflowing_bins",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "market_overflowing_bins-0012",
+    "image_ref": "airsim://synthetic/market_overflowing_bins/frame_0012.png",
+    "timestamp": "2026-05-24T09:19:15.608670+00:00",
+    "gps": {
+      "latitude": 12.974348,
+      "longitude": 77.597537
+    },
+    "altitude_m": 63.15,
+    "lighting": "dusk",
+    "weather": "rain",
+    "scenario": "market_overflowing_bins",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Overflowing garbage bin detected near market entrance.",
+      "event_candidates": [
+        {
+          "event_type": "overflowing_bin",
+          "confidence": 0.898,
+          "scene_description": "Overflowing garbage bin detected near market entrance.",
+          "rationale": "Scenario market_overflowing_bins with overflowing_bin cues under dusk/rain. Randomization factors: rain_intensity, lighting_variation, crowd_density_variation.",
+          "temporal_evidence": [
+            "overflowing_bin seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-market_overflowing_bins",
+    "severity": "Moderate Trigger",
+    "risk": "high"
+  },
+  {
+    "sample_id": "market_overflowing_bins-0013",
+    "image_ref": "airsim://synthetic/market_overflowing_bins/frame_0013.png",
+    "timestamp": "2026-05-24T09:22:15.608670+00:00",
+    "gps": {
+      "latitude": 12.975077,
+      "longitude": 77.594989
+    },
+    "altitude_m": 39.96,
+    "lighting": "night",
+    "weather": "clear",
+    "scenario": "market_overflowing_bins",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Overflowing garbage bin detected near market entrance.",
+      "event_candidates": [
+        {
+          "event_type": "roadside_littering",
+          "confidence": 0.626,
+          "scene_description": "Overflowing garbage bin detected near market entrance.",
+          "rationale": "Scenario market_overflowing_bins with roadside_littering cues under night/clear. Randomization factors: water_level, vehicle_density_variation, smoke_density.",
+          "temporal_evidence": [
+            "roadside_littering seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-market_overflowing_bins",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "market_overflowing_bins-0014",
+    "image_ref": "airsim://synthetic/market_overflowing_bins/frame_0014.png",
+    "timestamp": "2026-05-24T09:25:15.608670+00:00",
+    "gps": {
+      "latitude": 12.979291,
+      "longitude": 77.601787
+    },
+    "altitude_m": 58.27,
+    "lighting": "dusk",
+    "weather": "rain",
+    "scenario": "market_overflowing_bins",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Overflowing garbage bin detected near market entrance.",
+      "event_candidates": [
+        {
+          "event_type": "sensitive_zone_accumulation",
+          "confidence": 0.648,
+          "scene_description": "Overflowing garbage bin detected near market entrance.",
+          "rationale": "Scenario market_overflowing_bins with sensitive_zone_accumulation cues under dusk/rain. Randomization factors: weather_variation, camera_angle_changes, lighting_variation.",
+          "temporal_evidence": [
+            "sensitive_zone_accumulation seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-market_overflowing_bins",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "market_overflowing_bins-0015",
+    "image_ref": "airsim://synthetic/market_overflowing_bins/frame_0015.png",
+    "timestamp": "2026-05-24T09:28:15.608670+00:00",
+    "gps": {
+      "latitude": 12.97486,
+      "longitude": 77.593692
+    },
+    "altitude_m": 55.42,
+    "lighting": "night",
+    "weather": "rain",
+    "scenario": "market_overflowing_bins",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Overflowing garbage bin detected near market entrance.",
+      "event_candidates": [
+        {
+          "event_type": "overflowing_bin",
+          "confidence": 0.707,
+          "scene_description": "Overflowing garbage bin detected near market entrance.",
+          "rationale": "Scenario market_overflowing_bins with overflowing_bin cues under night/rain. Randomization factors: smoke_density, rain_intensity, drone_altitude_changes.",
+          "temporal_evidence": [
+            "overflowing_bin seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-market_overflowing_bins",
+    "severity": "Moderate Trigger",
+    "risk": "high"
+  },
+  {
+    "sample_id": "market_overflowing_bins-0016",
+    "image_ref": "airsim://synthetic/market_overflowing_bins/frame_0016.png",
+    "timestamp": "2026-05-24T09:31:15.608670+00:00",
+    "gps": {
+      "latitude": 12.978724,
+      "longitude": 77.597231
+    },
+    "altitude_m": 33.47,
+    "lighting": "night",
+    "weather": "cloudy",
+    "scenario": "market_overflowing_bins",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Overflowing garbage bin detected near market entrance.",
+      "event_candidates": [
+        {
+          "event_type": "roadside_littering",
+          "confidence": 0.917,
+          "scene_description": "Overflowing garbage bin detected near market entrance.",
+          "rationale": "Scenario market_overflowing_bins with roadside_littering cues under night/cloudy. Randomization factors: seasonal_conditions, vehicle_density_variation, smoke_density.",
+          "temporal_evidence": [
+            "roadside_littering seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-market_overflowing_bins",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "market_overflowing_bins-0017",
+    "image_ref": "airsim://synthetic/market_overflowing_bins/frame_0017.png",
+    "timestamp": "2026-05-24T09:34:15.608670+00:00",
+    "gps": {
+      "latitude": 12.974515,
+      "longitude": 77.595479
+    },
+    "altitude_m": 27.56,
+    "lighting": "day",
+    "weather": "rain",
+    "scenario": "market_overflowing_bins",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Overflowing garbage bin detected near market entrance.",
+      "event_candidates": [
+        {
+          "event_type": "sensitive_zone_accumulation",
+          "confidence": 0.643,
+          "scene_description": "Overflowing garbage bin detected near market entrance.",
+          "rationale": "Scenario market_overflowing_bins with sensitive_zone_accumulation cues under day/rain. Randomization factors: water_level, camera_angle_changes, weather_variation.",
+          "temporal_evidence": [
+            "sensitive_zone_accumulation seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-market_overflowing_bins",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "market_overflowing_bins-0018",
+    "image_ref": "airsim://synthetic/market_overflowing_bins/frame_0018.png",
+    "timestamp": "2026-05-24T09:37:15.608670+00:00",
+    "gps": {
+      "latitude": 12.976311,
+      "longitude": 77.595289
+    },
+    "altitude_m": 61.22,
+    "lighting": "dusk",
+    "weather": "clear",
+    "scenario": "market_overflowing_bins",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Overflowing garbage bin detected near market entrance.",
+      "event_candidates": [
+        {
+          "event_type": "overflowing_bin",
+          "confidence": 0.841,
+          "scene_description": "Overflowing garbage bin detected near market entrance.",
+          "rationale": "Scenario market_overflowing_bins with overflowing_bin cues under dusk/clear. Randomization factors: rain_intensity, camera_angle_changes, crowd_density_variation.",
+          "temporal_evidence": [
+            "overflowing_bin seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-market_overflowing_bins",
+    "severity": "Moderate Trigger",
+    "risk": "high"
+  },
+  {
+    "sample_id": "market_overflowing_bins-0019",
+    "image_ref": "airsim://synthetic/market_overflowing_bins/frame_0019.png",
+    "timestamp": "2026-05-24T09:40:15.608670+00:00",
+    "gps": {
+      "latitude": 12.972142,
+      "longitude": 77.594323
+    },
+    "altitude_m": 62.42,
+    "lighting": "foggy_day",
+    "weather": "rain",
+    "scenario": "market_overflowing_bins",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Overflowing garbage bin detected near market entrance.",
+      "event_candidates": [
+        {
+          "event_type": "roadside_littering",
+          "confidence": 0.651,
+          "scene_description": "Overflowing garbage bin detected near market entrance.",
+          "rationale": "Scenario market_overflowing_bins with roadside_littering cues under foggy_day/rain. Randomization factors: smoke_density, seasonal_conditions, camera_angle_changes.",
+          "temporal_evidence": [
+            "roadside_littering seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-market_overflowing_bins",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "market_overflowing_bins-0020",
+    "image_ref": "airsim://synthetic/market_overflowing_bins/frame_0020.png",
+    "timestamp": "2026-05-24T09:43:15.608670+00:00",
+    "gps": {
+      "latitude": 12.97659,
+      "longitude": 77.596543
+    },
+    "altitude_m": 41.44,
+    "lighting": "day",
+    "weather": "clear",
+    "scenario": "market_overflowing_bins",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Overflowing garbage bin detected near market entrance.",
+      "event_candidates": [
+        {
+          "event_type": "sensitive_zone_accumulation",
+          "confidence": 0.884,
+          "scene_description": "Overflowing garbage bin detected near market entrance.",
+          "rationale": "Scenario market_overflowing_bins with sensitive_zone_accumulation cues under day/clear. Randomization factors: weather_variation, seasonal_conditions, vehicle_density_variation.",
+          "temporal_evidence": [
+            "sensitive_zone_accumulation seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-market_overflowing_bins",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "market_overflowing_bins-0021",
+    "image_ref": "airsim://synthetic/market_overflowing_bins/frame_0021.png",
+    "timestamp": "2026-05-24T09:46:15.608670+00:00",
+    "gps": {
+      "latitude": 12.971093,
+      "longitude": 77.594916
+    },
+    "altitude_m": 46.45,
+    "lighting": "night",
+    "weather": "haze",
+    "scenario": "market_overflowing_bins",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Overflowing garbage bin detected near market entrance.",
+      "event_candidates": [
+        {
+          "event_type": "overflowing_bin",
+          "confidence": 0.702,
+          "scene_description": "Overflowing garbage bin detected near market entrance.",
+          "rationale": "Scenario market_overflowing_bins with overflowing_bin cues under night/haze. Randomization factors: drone_altitude_changes, crowd_density_variation, smoke_density.",
+          "temporal_evidence": [
+            "overflowing_bin seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-market_overflowing_bins",
+    "severity": "Moderate Trigger",
+    "risk": "high"
+  },
+  {
+    "sample_id": "market_overflowing_bins-0022",
+    "image_ref": "airsim://synthetic/market_overflowing_bins/frame_0022.png",
+    "timestamp": "2026-05-24T09:49:15.608670+00:00",
+    "gps": {
+      "latitude": 12.979233,
+      "longitude": 77.597431
+    },
+    "altitude_m": 59.45,
+    "lighting": "day",
+    "weather": "clear",
+    "scenario": "market_overflowing_bins",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Overflowing garbage bin detected near market entrance.",
+      "event_candidates": [
+        {
+          "event_type": "roadside_littering",
+          "confidence": 0.926,
+          "scene_description": "Overflowing garbage bin detected near market entrance.",
+          "rationale": "Scenario market_overflowing_bins with roadside_littering cues under day/clear. Randomization factors: rain_intensity, weather_variation, lighting_variation.",
+          "temporal_evidence": [
+            "roadside_littering seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-market_overflowing_bins",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "market_overflowing_bins-0023",
+    "image_ref": "airsim://synthetic/market_overflowing_bins/frame_0023.png",
+    "timestamp": "2026-05-24T09:52:15.608670+00:00",
+    "gps": {
+      "latitude": 12.978487,
+      "longitude": 77.594663
+    },
+    "altitude_m": 44.43,
+    "lighting": "night",
+    "weather": "haze",
+    "scenario": "market_overflowing_bins",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Overflowing garbage bin detected near market entrance.",
+      "event_candidates": [
+        {
+          "event_type": "sensitive_zone_accumulation",
+          "confidence": 0.621,
+          "scene_description": "Overflowing garbage bin detected near market entrance.",
+          "rationale": "Scenario market_overflowing_bins with sensitive_zone_accumulation cues under night/haze. Randomization factors: weather_variation, drone_altitude_changes, seasonal_conditions.",
+          "temporal_evidence": [
+            "sensitive_zone_accumulation seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-market_overflowing_bins",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "night_vehicle_dumping-0000",
+    "image_ref": "airsim://synthetic/night_vehicle_dumping/frame_0000.png",
+    "timestamp": "2026-05-24T09:55:15.608670+00:00",
+    "gps": {
+      "latitude": 12.973904,
+      "longitude": 77.602265
+    },
+    "altitude_m": 56.41,
+    "lighting": "dusk",
+    "weather": "haze",
+    "scenario": "night_vehicle_dumping",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Suspicious dumping activity observed from a parked vehicle.",
+      "event_candidates": [
+        {
+          "event_type": "vehicle_dumping",
+          "confidence": 0.683,
+          "scene_description": "Suspicious dumping activity observed from a parked vehicle.",
+          "rationale": "Scenario night_vehicle_dumping with vehicle_dumping cues under dusk/haze. Randomization factors: rain_intensity, smoke_density, drone_altitude_changes.",
+          "temporal_evidence": [
+            "vehicle_dumping seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-night_vehicle_dumping",
+    "severity": "Moderate Trigger",
+    "risk": "high"
+  },
+  {
+    "sample_id": "night_vehicle_dumping-0001",
+    "image_ref": "airsim://synthetic/night_vehicle_dumping/frame_0001.png",
+    "timestamp": "2026-05-24T09:58:15.608670+00:00",
+    "gps": {
+      "latitude": 12.972177,
+      "longitude": 77.593585
+    },
+    "altitude_m": 54.43,
+    "lighting": "day",
+    "weather": "cloudy",
+    "scenario": "night_vehicle_dumping",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Suspicious dumping activity observed from a parked vehicle.",
+      "event_candidates": [
+        {
+          "event_type": "night_dumping",
+          "confidence": 0.786,
+          "scene_description": "Suspicious dumping activity observed from a parked vehicle.",
+          "rationale": "Scenario night_vehicle_dumping with night_dumping cues under day/cloudy. Randomization factors: weather_variation, water_level, smoke_density.",
+          "temporal_evidence": [
+            "night_dumping seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-night_vehicle_dumping",
+    "severity": "Moderate Trigger",
+    "risk": "high"
+  },
+  {
+    "sample_id": "night_vehicle_dumping-0002",
+    "image_ref": "airsim://synthetic/night_vehicle_dumping/frame_0002.png",
+    "timestamp": "2026-05-24T10:01:15.608670+00:00",
+    "gps": {
+      "latitude": 12.978527,
+      "longitude": 77.594574
+    },
+    "altitude_m": 63.43,
+    "lighting": "day",
+    "weather": "rain",
+    "scenario": "night_vehicle_dumping",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Suspicious dumping activity observed from a parked vehicle.",
+      "event_candidates": [
+        {
+          "event_type": "drain_or_river_dumping",
+          "confidence": 0.753,
+          "scene_description": "Suspicious dumping activity observed from a parked vehicle.",
+          "rationale": "Scenario night_vehicle_dumping with drain_or_river_dumping cues under day/rain. Randomization factors: lighting_variation, water_level, camera_angle_changes.",
+          "temporal_evidence": [
+            "drain_or_river_dumping seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-night_vehicle_dumping",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "night_vehicle_dumping-0003",
+    "image_ref": "airsim://synthetic/night_vehicle_dumping/frame_0003.png",
+    "timestamp": "2026-05-24T10:04:15.608670+00:00",
+    "gps": {
+      "latitude": 12.979416,
+      "longitude": 77.598697
+    },
+    "altitude_m": 48.16,
+    "lighting": "day",
+    "weather": "clear",
+    "scenario": "night_vehicle_dumping",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Suspicious dumping activity observed from a parked vehicle.",
+      "event_candidates": [
+        {
+          "event_type": "vehicle_dumping",
+          "confidence": 0.928,
+          "scene_description": "Suspicious dumping activity observed from a parked vehicle.",
+          "rationale": "Scenario night_vehicle_dumping with vehicle_dumping cues under day/clear. Randomization factors: seasonal_conditions, rain_intensity, vehicle_density_variation.",
+          "temporal_evidence": [
+            "vehicle_dumping seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-night_vehicle_dumping",
+    "severity": "Moderate Trigger",
+    "risk": "high"
+  },
+  {
+    "sample_id": "night_vehicle_dumping-0004",
+    "image_ref": "airsim://synthetic/night_vehicle_dumping/frame_0004.png",
+    "timestamp": "2026-05-24T10:07:15.608670+00:00",
+    "gps": {
+      "latitude": 12.972043,
+      "longitude": 77.600162
+    },
+    "altitude_m": 34.55,
+    "lighting": "foggy_day",
+    "weather": "rain",
+    "scenario": "night_vehicle_dumping",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Suspicious dumping activity observed from a parked vehicle.",
+      "event_candidates": [
+        {
+          "event_type": "night_dumping",
+          "confidence": 0.927,
+          "scene_description": "Suspicious dumping activity observed from a parked vehicle.",
+          "rationale": "Scenario night_vehicle_dumping with night_dumping cues under foggy_day/rain. Randomization factors: crowd_density_variation, smoke_density, vehicle_density_variation.",
+          "temporal_evidence": [
+            "night_dumping seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-night_vehicle_dumping",
+    "severity": "Moderate Trigger",
+    "risk": "high"
+  },
+  {
+    "sample_id": "night_vehicle_dumping-0005",
+    "image_ref": "airsim://synthetic/night_vehicle_dumping/frame_0005.png",
+    "timestamp": "2026-05-24T10:10:15.608670+00:00",
+    "gps": {
+      "latitude": 12.979357,
+      "longitude": 77.593093
+    },
+    "altitude_m": 49.85,
+    "lighting": "day",
+    "weather": "clear",
+    "scenario": "night_vehicle_dumping",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Suspicious dumping activity observed from a parked vehicle.",
+      "event_candidates": [
+        {
+          "event_type": "drain_or_river_dumping",
+          "confidence": 0.664,
+          "scene_description": "Suspicious dumping activity observed from a parked vehicle.",
+          "rationale": "Scenario night_vehicle_dumping with drain_or_river_dumping cues under day/clear. Randomization factors: rain_intensity, camera_angle_changes, crowd_density_variation.",
+          "temporal_evidence": [
+            "drain_or_river_dumping seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-night_vehicle_dumping",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "night_vehicle_dumping-0006",
+    "image_ref": "airsim://synthetic/night_vehicle_dumping/frame_0006.png",
+    "timestamp": "2026-05-24T10:13:15.608670+00:00",
+    "gps": {
+      "latitude": 12.97349,
+      "longitude": 77.593688
+    },
+    "altitude_m": 34.77,
+    "lighting": "dusk",
+    "weather": "rain",
+    "scenario": "night_vehicle_dumping",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Suspicious dumping activity observed from a parked vehicle.",
+      "event_candidates": [
+        {
+          "event_type": "vehicle_dumping",
+          "confidence": 0.822,
+          "scene_description": "Suspicious dumping activity observed from a parked vehicle.",
+          "rationale": "Scenario night_vehicle_dumping with vehicle_dumping cues under dusk/rain. Randomization factors: smoke_density, rain_intensity, crowd_density_variation.",
+          "temporal_evidence": [
+            "vehicle_dumping seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-night_vehicle_dumping",
+    "severity": "Moderate Trigger",
+    "risk": "high"
+  },
+  {
+    "sample_id": "night_vehicle_dumping-0007",
+    "image_ref": "airsim://synthetic/night_vehicle_dumping/frame_0007.png",
+    "timestamp": "2026-05-24T10:16:15.608670+00:00",
+    "gps": {
+      "latitude": 12.979872,
+      "longitude": 77.59954
+    },
+    "altitude_m": 25.31,
+    "lighting": "dusk",
+    "weather": "clear",
+    "scenario": "night_vehicle_dumping",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Suspicious dumping activity observed from a parked vehicle.",
+      "event_candidates": [
+        {
+          "event_type": "night_dumping",
+          "confidence": 0.914,
+          "scene_description": "Suspicious dumping activity observed from a parked vehicle.",
+          "rationale": "Scenario night_vehicle_dumping with night_dumping cues under dusk/clear. Randomization factors: drone_altitude_changes, crowd_density_variation, lighting_variation.",
+          "temporal_evidence": [
+            "night_dumping seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-night_vehicle_dumping",
+    "severity": "Moderate Trigger",
+    "risk": "high"
+  },
+  {
+    "sample_id": "night_vehicle_dumping-0008",
+    "image_ref": "airsim://synthetic/night_vehicle_dumping/frame_0008.png",
+    "timestamp": "2026-05-24T10:19:15.608670+00:00",
+    "gps": {
+      "latitude": 12.977424,
+      "longitude": 77.594554
+    },
+    "altitude_m": 36.27,
+    "lighting": "night",
+    "weather": "cloudy",
+    "scenario": "night_vehicle_dumping",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Suspicious dumping activity observed from a parked vehicle.",
+      "event_candidates": [
+        {
+          "event_type": "drain_or_river_dumping",
+          "confidence": 0.703,
+          "scene_description": "Suspicious dumping activity observed from a parked vehicle.",
+          "rationale": "Scenario night_vehicle_dumping with drain_or_river_dumping cues under night/cloudy. Randomization factors: camera_angle_changes, crowd_density_variation, smoke_density.",
+          "temporal_evidence": [
+            "drain_or_river_dumping seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-night_vehicle_dumping",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "night_vehicle_dumping-0009",
+    "image_ref": "airsim://synthetic/night_vehicle_dumping/frame_0009.png",
+    "timestamp": "2026-05-24T10:22:15.608670+00:00",
+    "gps": {
+      "latitude": 12.979082,
+      "longitude": 77.593508
+    },
+    "altitude_m": 50.37,
+    "lighting": "dusk",
+    "weather": "clear",
+    "scenario": "night_vehicle_dumping",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Suspicious dumping activity observed from a parked vehicle.",
+      "event_candidates": [
+        {
+          "event_type": "vehicle_dumping",
+          "confidence": 0.83,
+          "scene_description": "Suspicious dumping activity observed from a parked vehicle.",
+          "rationale": "Scenario night_vehicle_dumping with vehicle_dumping cues under dusk/clear. Randomization factors: weather_variation, vehicle_density_variation, drone_altitude_changes.",
+          "temporal_evidence": [
+            "vehicle_dumping seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-night_vehicle_dumping",
+    "severity": "Moderate Trigger",
+    "risk": "high"
+  },
+  {
+    "sample_id": "night_vehicle_dumping-0010",
+    "image_ref": "airsim://synthetic/night_vehicle_dumping/frame_0010.png",
+    "timestamp": "2026-05-24T10:25:15.608670+00:00",
+    "gps": {
+      "latitude": 12.97262,
+      "longitude": 77.600412
+    },
+    "altitude_m": 47.07,
+    "lighting": "foggy_day",
+    "weather": "clear",
+    "scenario": "night_vehicle_dumping",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Suspicious dumping activity observed from a parked vehicle.",
+      "event_candidates": [
+        {
+          "event_type": "night_dumping",
+          "confidence": 0.8,
+          "scene_description": "Suspicious dumping activity observed from a parked vehicle.",
+          "rationale": "Scenario night_vehicle_dumping with night_dumping cues under foggy_day/clear. Randomization factors: lighting_variation, water_level, drone_altitude_changes.",
+          "temporal_evidence": [
+            "night_dumping seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-night_vehicle_dumping",
+    "severity": "Moderate Trigger",
+    "risk": "high"
+  },
+  {
+    "sample_id": "night_vehicle_dumping-0011",
+    "image_ref": "airsim://synthetic/night_vehicle_dumping/frame_0011.png",
+    "timestamp": "2026-05-24T10:28:15.608670+00:00",
+    "gps": {
+      "latitude": 12.978346,
+      "longitude": 77.598825
+    },
+    "altitude_m": 30.92,
+    "lighting": "night",
+    "weather": "clear",
+    "scenario": "night_vehicle_dumping",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Suspicious dumping activity observed from a parked vehicle.",
+      "event_candidates": [
+        {
+          "event_type": "drain_or_river_dumping",
+          "confidence": 0.917,
+          "scene_description": "Suspicious dumping activity observed from a parked vehicle.",
+          "rationale": "Scenario night_vehicle_dumping with drain_or_river_dumping cues under night/clear. Randomization factors: crowd_density_variation, vehicle_density_variation, weather_variation.",
+          "temporal_evidence": [
+            "drain_or_river_dumping seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-night_vehicle_dumping",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "night_vehicle_dumping-0012",
+    "image_ref": "airsim://synthetic/night_vehicle_dumping/frame_0012.png",
+    "timestamp": "2026-05-24T10:31:15.608670+00:00",
+    "gps": {
+      "latitude": 12.972101,
+      "longitude": 77.595495
+    },
+    "altitude_m": 29.11,
+    "lighting": "foggy_day",
+    "weather": "rain",
+    "scenario": "night_vehicle_dumping",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Suspicious dumping activity observed from a parked vehicle.",
+      "event_candidates": [
+        {
+          "event_type": "vehicle_dumping",
+          "confidence": 0.911,
+          "scene_description": "Suspicious dumping activity observed from a parked vehicle.",
+          "rationale": "Scenario night_vehicle_dumping with vehicle_dumping cues under foggy_day/rain. Randomization factors: camera_angle_changes, drone_altitude_changes, rain_intensity.",
+          "temporal_evidence": [
+            "vehicle_dumping seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-night_vehicle_dumping",
+    "severity": "Moderate Trigger",
+    "risk": "high"
+  },
+  {
+    "sample_id": "night_vehicle_dumping-0013",
+    "image_ref": "airsim://synthetic/night_vehicle_dumping/frame_0013.png",
+    "timestamp": "2026-05-24T10:34:15.608670+00:00",
+    "gps": {
+      "latitude": 12.970248,
+      "longitude": 77.600366
+    },
+    "altitude_m": 38.29,
+    "lighting": "foggy_day",
+    "weather": "rain",
+    "scenario": "night_vehicle_dumping",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Suspicious dumping activity observed from a parked vehicle.",
+      "event_candidates": [
+        {
+          "event_type": "night_dumping",
+          "confidence": 0.746,
+          "scene_description": "Suspicious dumping activity observed from a parked vehicle.",
+          "rationale": "Scenario night_vehicle_dumping with night_dumping cues under foggy_day/rain. Randomization factors: crowd_density_variation, drone_altitude_changes, lighting_variation.",
+          "temporal_evidence": [
+            "night_dumping seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-night_vehicle_dumping",
+    "severity": "Moderate Trigger",
+    "risk": "high"
+  },
+  {
+    "sample_id": "night_vehicle_dumping-0014",
+    "image_ref": "airsim://synthetic/night_vehicle_dumping/frame_0014.png",
+    "timestamp": "2026-05-24T10:37:15.608670+00:00",
+    "gps": {
+      "latitude": 12.970387,
+      "longitude": 77.597707
+    },
+    "altitude_m": 32.98,
+    "lighting": "foggy_day",
+    "weather": "cloudy",
+    "scenario": "night_vehicle_dumping",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Suspicious dumping activity observed from a parked vehicle.",
+      "event_candidates": [
+        {
+          "event_type": "drain_or_river_dumping",
+          "confidence": 0.628,
+          "scene_description": "Suspicious dumping activity observed from a parked vehicle.",
+          "rationale": "Scenario night_vehicle_dumping with drain_or_river_dumping cues under foggy_day/cloudy. Randomization factors: crowd_density_variation, camera_angle_changes, rain_intensity.",
+          "temporal_evidence": [
+            "drain_or_river_dumping seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-night_vehicle_dumping",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "night_vehicle_dumping-0015",
+    "image_ref": "airsim://synthetic/night_vehicle_dumping/frame_0015.png",
+    "timestamp": "2026-05-24T10:40:15.608670+00:00",
+    "gps": {
+      "latitude": 12.971931,
+      "longitude": 77.596283
+    },
+    "altitude_m": 59.57,
+    "lighting": "dusk",
+    "weather": "cloudy",
+    "scenario": "night_vehicle_dumping",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Suspicious dumping activity observed from a parked vehicle.",
+      "event_candidates": [
+        {
+          "event_type": "vehicle_dumping",
+          "confidence": 0.93,
+          "scene_description": "Suspicious dumping activity observed from a parked vehicle.",
+          "rationale": "Scenario night_vehicle_dumping with vehicle_dumping cues under dusk/cloudy. Randomization factors: rain_intensity, seasonal_conditions, vehicle_density_variation.",
+          "temporal_evidence": [
+            "vehicle_dumping seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-night_vehicle_dumping",
+    "severity": "Moderate Trigger",
+    "risk": "high"
+  },
+  {
+    "sample_id": "night_vehicle_dumping-0016",
+    "image_ref": "airsim://synthetic/night_vehicle_dumping/frame_0016.png",
+    "timestamp": "2026-05-24T10:43:15.608670+00:00",
+    "gps": {
+      "latitude": 12.971153,
+      "longitude": 77.602704
+    },
+    "altitude_m": 32.14,
+    "lighting": "dusk",
+    "weather": "clear",
+    "scenario": "night_vehicle_dumping",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Suspicious dumping activity observed from a parked vehicle.",
+      "event_candidates": [
+        {
+          "event_type": "night_dumping",
+          "confidence": 0.86,
+          "scene_description": "Suspicious dumping activity observed from a parked vehicle.",
+          "rationale": "Scenario night_vehicle_dumping with night_dumping cues under dusk/clear. Randomization factors: lighting_variation, seasonal_conditions, vehicle_density_variation.",
+          "temporal_evidence": [
+            "night_dumping seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-night_vehicle_dumping",
+    "severity": "Moderate Trigger",
+    "risk": "high"
+  },
+  {
+    "sample_id": "night_vehicle_dumping-0017",
+    "image_ref": "airsim://synthetic/night_vehicle_dumping/frame_0017.png",
+    "timestamp": "2026-05-24T10:46:15.608670+00:00",
+    "gps": {
+      "latitude": 12.973137,
+      "longitude": 77.599062
+    },
+    "altitude_m": 45.46,
+    "lighting": "foggy_day",
+    "weather": "rain",
+    "scenario": "night_vehicle_dumping",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Suspicious dumping activity observed from a parked vehicle.",
+      "event_candidates": [
+        {
+          "event_type": "drain_or_river_dumping",
+          "confidence": 0.621,
+          "scene_description": "Suspicious dumping activity observed from a parked vehicle.",
+          "rationale": "Scenario night_vehicle_dumping with drain_or_river_dumping cues under foggy_day/rain. Randomization factors: crowd_density_variation, weather_variation, seasonal_conditions.",
+          "temporal_evidence": [
+            "drain_or_river_dumping seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-night_vehicle_dumping",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "night_vehicle_dumping-0018",
+    "image_ref": "airsim://synthetic/night_vehicle_dumping/frame_0018.png",
+    "timestamp": "2026-05-24T10:49:15.608670+00:00",
+    "gps": {
+      "latitude": 12.979256,
+      "longitude": 77.598385
+    },
+    "altitude_m": 53.78,
+    "lighting": "night",
+    "weather": "cloudy",
+    "scenario": "night_vehicle_dumping",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Suspicious dumping activity observed from a parked vehicle.",
+      "event_candidates": [
+        {
+          "event_type": "vehicle_dumping",
+          "confidence": 0.826,
+          "scene_description": "Suspicious dumping activity observed from a parked vehicle.",
+          "rationale": "Scenario night_vehicle_dumping with vehicle_dumping cues under night/cloudy. Randomization factors: seasonal_conditions, lighting_variation, vehicle_density_variation.",
+          "temporal_evidence": [
+            "vehicle_dumping seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-night_vehicle_dumping",
+    "severity": "Moderate Trigger",
+    "risk": "high"
+  },
+  {
+    "sample_id": "night_vehicle_dumping-0019",
+    "image_ref": "airsim://synthetic/night_vehicle_dumping/frame_0019.png",
+    "timestamp": "2026-05-24T10:52:15.608670+00:00",
+    "gps": {
+      "latitude": 12.976634,
+      "longitude": 77.594246
+    },
+    "altitude_m": 61.0,
+    "lighting": "dusk",
+    "weather": "haze",
+    "scenario": "night_vehicle_dumping",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Suspicious dumping activity observed from a parked vehicle.",
+      "event_candidates": [
+        {
+          "event_type": "night_dumping",
+          "confidence": 0.803,
+          "scene_description": "Suspicious dumping activity observed from a parked vehicle.",
+          "rationale": "Scenario night_vehicle_dumping with night_dumping cues under dusk/haze. Randomization factors: vehicle_density_variation, seasonal_conditions, crowd_density_variation.",
+          "temporal_evidence": [
+            "night_dumping seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-night_vehicle_dumping",
+    "severity": "Moderate Trigger",
+    "risk": "high"
+  },
+  {
+    "sample_id": "night_vehicle_dumping-0020",
+    "image_ref": "airsim://synthetic/night_vehicle_dumping/frame_0020.png",
+    "timestamp": "2026-05-24T10:55:15.608670+00:00",
+    "gps": {
+      "latitude": 12.971918,
+      "longitude": 77.599649
+    },
+    "altitude_m": 40.17,
+    "lighting": "night",
+    "weather": "cloudy",
+    "scenario": "night_vehicle_dumping",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Suspicious dumping activity observed from a parked vehicle.",
+      "event_candidates": [
+        {
+          "event_type": "drain_or_river_dumping",
+          "confidence": 0.72,
+          "scene_description": "Suspicious dumping activity observed from a parked vehicle.",
+          "rationale": "Scenario night_vehicle_dumping with drain_or_river_dumping cues under night/cloudy. Randomization factors: seasonal_conditions, rain_intensity, weather_variation.",
+          "temporal_evidence": [
+            "drain_or_river_dumping seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-night_vehicle_dumping",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "night_vehicle_dumping-0021",
+    "image_ref": "airsim://synthetic/night_vehicle_dumping/frame_0021.png",
+    "timestamp": "2026-05-24T10:58:15.608670+00:00",
+    "gps": {
+      "latitude": 12.972102,
+      "longitude": 77.600858
+    },
+    "altitude_m": 49.27,
+    "lighting": "dusk",
+    "weather": "haze",
+    "scenario": "night_vehicle_dumping",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Suspicious dumping activity observed from a parked vehicle.",
+      "event_candidates": [
+        {
+          "event_type": "vehicle_dumping",
+          "confidence": 0.789,
+          "scene_description": "Suspicious dumping activity observed from a parked vehicle.",
+          "rationale": "Scenario night_vehicle_dumping with vehicle_dumping cues under dusk/haze. Randomization factors: smoke_density, water_level, camera_angle_changes.",
+          "temporal_evidence": [
+            "vehicle_dumping seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-night_vehicle_dumping",
+    "severity": "Moderate Trigger",
+    "risk": "high"
+  },
+  {
+    "sample_id": "night_vehicle_dumping-0022",
+    "image_ref": "airsim://synthetic/night_vehicle_dumping/frame_0022.png",
+    "timestamp": "2026-05-24T11:01:15.608670+00:00",
+    "gps": {
+      "latitude": 12.977937,
+      "longitude": 77.602598
+    },
+    "altitude_m": 54.44,
+    "lighting": "day",
+    "weather": "cloudy",
+    "scenario": "night_vehicle_dumping",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Suspicious dumping activity observed from a parked vehicle.",
+      "event_candidates": [
+        {
+          "event_type": "night_dumping",
+          "confidence": 0.89,
+          "scene_description": "Suspicious dumping activity observed from a parked vehicle.",
+          "rationale": "Scenario night_vehicle_dumping with night_dumping cues under day/cloudy. Randomization factors: rain_intensity, vehicle_density_variation, lighting_variation.",
+          "temporal_evidence": [
+            "night_dumping seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-night_vehicle_dumping",
+    "severity": "Moderate Trigger",
+    "risk": "high"
+  },
+  {
+    "sample_id": "night_vehicle_dumping-0023",
+    "image_ref": "airsim://synthetic/night_vehicle_dumping/frame_0023.png",
+    "timestamp": "2026-05-24T11:04:15.608670+00:00",
+    "gps": {
+      "latitude": 12.977511,
+      "longitude": 77.599728
+    },
+    "altitude_m": 33.99,
+    "lighting": "night",
+    "weather": "rain",
+    "scenario": "night_vehicle_dumping",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Suspicious dumping activity observed from a parked vehicle.",
+      "event_candidates": [
+        {
+          "event_type": "drain_or_river_dumping",
+          "confidence": 0.945,
+          "scene_description": "Suspicious dumping activity observed from a parked vehicle.",
+          "rationale": "Scenario night_vehicle_dumping with drain_or_river_dumping cues under night/rain. Randomization factors: weather_variation, water_level, camera_angle_changes.",
+          "temporal_evidence": [
+            "drain_or_river_dumping seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-night_vehicle_dumping",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "waste_fire_smoke-0000",
+    "image_ref": "airsim://synthetic/waste_fire_smoke/frame_0000.png",
+    "timestamp": "2026-05-24T11:07:15.608670+00:00",
+    "gps": {
+      "latitude": 12.976113,
+      "longitude": 77.600685
+    },
+    "altitude_m": 43.22,
+    "lighting": "night",
+    "weather": "haze",
+    "scenario": "waste_fire_smoke",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Smoke detected near municipal waste accumulation area.",
+      "event_candidates": [
+        {
+          "event_type": "smoke_or_fire",
+          "confidence": 0.669,
+          "scene_description": "Smoke detected near municipal waste accumulation area.",
+          "rationale": "Scenario waste_fire_smoke with smoke_or_fire cues under night/haze. Randomization factors: smoke_density, seasonal_conditions, camera_angle_changes.",
+          "temporal_evidence": [
+            "smoke_or_fire seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-waste_fire_smoke",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  },
+  {
+    "sample_id": "waste_fire_smoke-0001",
+    "image_ref": "airsim://synthetic/waste_fire_smoke/frame_0001.png",
+    "timestamp": "2026-05-24T11:10:15.608670+00:00",
+    "gps": {
+      "latitude": 12.976876,
+      "longitude": 77.601927
+    },
+    "altitude_m": 59.42,
+    "lighting": "day",
+    "weather": "haze",
+    "scenario": "waste_fire_smoke",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Smoke detected near municipal waste accumulation area.",
+      "event_candidates": [
+        {
+          "event_type": "waste_burning",
+          "confidence": 0.637,
+          "scene_description": "Smoke detected near municipal waste accumulation area.",
+          "rationale": "Scenario waste_fire_smoke with waste_burning cues under day/haze. Randomization factors: camera_angle_changes, drone_altitude_changes, smoke_density.",
+          "temporal_evidence": [
+            "waste_burning seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-waste_fire_smoke",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  },
+  {
+    "sample_id": "waste_fire_smoke-0002",
+    "image_ref": "airsim://synthetic/waste_fire_smoke/frame_0002.png",
+    "timestamp": "2026-05-24T11:13:15.608670+00:00",
+    "gps": {
+      "latitude": 12.972492,
+      "longitude": 77.601483
+    },
+    "altitude_m": 43.26,
+    "lighting": "foggy_day",
+    "weather": "cloudy",
+    "scenario": "waste_fire_smoke",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Smoke detected near municipal waste accumulation area.",
+      "event_candidates": [
+        {
+          "event_type": "crowd_near_hazard",
+          "confidence": 0.894,
+          "scene_description": "Smoke detected near municipal waste accumulation area.",
+          "rationale": "Scenario waste_fire_smoke with crowd_near_hazard cues under foggy_day/cloudy. Randomization factors: smoke_density, rain_intensity, seasonal_conditions.",
+          "temporal_evidence": [
+            "crowd_near_hazard seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-waste_fire_smoke",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "waste_fire_smoke-0003",
+    "image_ref": "airsim://synthetic/waste_fire_smoke/frame_0003.png",
+    "timestamp": "2026-05-24T11:16:15.608670+00:00",
+    "gps": {
+      "latitude": 12.975479,
+      "longitude": 77.601972
+    },
+    "altitude_m": 54.75,
+    "lighting": "foggy_day",
+    "weather": "haze",
+    "scenario": "waste_fire_smoke",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Smoke detected near municipal waste accumulation area.",
+      "event_candidates": [
+        {
+          "event_type": "smoke_or_fire",
+          "confidence": 0.873,
+          "scene_description": "Smoke detected near municipal waste accumulation area.",
+          "rationale": "Scenario waste_fire_smoke with smoke_or_fire cues under foggy_day/haze. Randomization factors: crowd_density_variation, camera_angle_changes, water_level.",
+          "temporal_evidence": [
+            "smoke_or_fire seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-waste_fire_smoke",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  },
+  {
+    "sample_id": "waste_fire_smoke-0004",
+    "image_ref": "airsim://synthetic/waste_fire_smoke/frame_0004.png",
+    "timestamp": "2026-05-24T11:19:15.608670+00:00",
+    "gps": {
+      "latitude": 12.975213,
+      "longitude": 77.599267
+    },
+    "altitude_m": 35.98,
+    "lighting": "day",
+    "weather": "cloudy",
+    "scenario": "waste_fire_smoke",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Smoke detected near municipal waste accumulation area.",
+      "event_candidates": [
+        {
+          "event_type": "waste_burning",
+          "confidence": 0.726,
+          "scene_description": "Smoke detected near municipal waste accumulation area.",
+          "rationale": "Scenario waste_fire_smoke with waste_burning cues under day/cloudy. Randomization factors: camera_angle_changes, crowd_density_variation, vehicle_density_variation.",
+          "temporal_evidence": [
+            "waste_burning seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-waste_fire_smoke",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  },
+  {
+    "sample_id": "waste_fire_smoke-0005",
+    "image_ref": "airsim://synthetic/waste_fire_smoke/frame_0005.png",
+    "timestamp": "2026-05-24T11:22:15.608670+00:00",
+    "gps": {
+      "latitude": 12.975402,
+      "longitude": 77.594384
+    },
+    "altitude_m": 34.25,
+    "lighting": "night",
+    "weather": "rain",
+    "scenario": "waste_fire_smoke",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Smoke detected near municipal waste accumulation area.",
+      "event_candidates": [
+        {
+          "event_type": "crowd_near_hazard",
+          "confidence": 0.729,
+          "scene_description": "Smoke detected near municipal waste accumulation area.",
+          "rationale": "Scenario waste_fire_smoke with crowd_near_hazard cues under night/rain. Randomization factors: lighting_variation, seasonal_conditions, rain_intensity.",
+          "temporal_evidence": [
+            "crowd_near_hazard seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-waste_fire_smoke",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "waste_fire_smoke-0006",
+    "image_ref": "airsim://synthetic/waste_fire_smoke/frame_0006.png",
+    "timestamp": "2026-05-24T11:25:15.608670+00:00",
+    "gps": {
+      "latitude": 12.974659,
+      "longitude": 77.593623
+    },
+    "altitude_m": 58.32,
+    "lighting": "foggy_day",
+    "weather": "clear",
+    "scenario": "waste_fire_smoke",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Smoke detected near municipal waste accumulation area.",
+      "event_candidates": [
+        {
+          "event_type": "smoke_or_fire",
+          "confidence": 0.622,
+          "scene_description": "Smoke detected near municipal waste accumulation area.",
+          "rationale": "Scenario waste_fire_smoke with smoke_or_fire cues under foggy_day/clear. Randomization factors: water_level, seasonal_conditions, smoke_density.",
+          "temporal_evidence": [
+            "smoke_or_fire seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-waste_fire_smoke",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  },
+  {
+    "sample_id": "waste_fire_smoke-0007",
+    "image_ref": "airsim://synthetic/waste_fire_smoke/frame_0007.png",
+    "timestamp": "2026-05-24T11:28:15.608670+00:00",
+    "gps": {
+      "latitude": 12.973518,
+      "longitude": 77.600535
+    },
+    "altitude_m": 59.14,
+    "lighting": "foggy_day",
+    "weather": "rain",
+    "scenario": "waste_fire_smoke",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Smoke detected near municipal waste accumulation area.",
+      "event_candidates": [
+        {
+          "event_type": "waste_burning",
+          "confidence": 0.764,
+          "scene_description": "Smoke detected near municipal waste accumulation area.",
+          "rationale": "Scenario waste_fire_smoke with waste_burning cues under foggy_day/rain. Randomization factors: smoke_density, camera_angle_changes, crowd_density_variation.",
+          "temporal_evidence": [
+            "waste_burning seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-waste_fire_smoke",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  },
+  {
+    "sample_id": "waste_fire_smoke-0008",
+    "image_ref": "airsim://synthetic/waste_fire_smoke/frame_0008.png",
+    "timestamp": "2026-05-24T11:31:15.608670+00:00",
+    "gps": {
+      "latitude": 12.97029,
+      "longitude": 77.596361
+    },
+    "altitude_m": 52.17,
+    "lighting": "foggy_day",
+    "weather": "rain",
+    "scenario": "waste_fire_smoke",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Smoke detected near municipal waste accumulation area.",
+      "event_candidates": [
+        {
+          "event_type": "crowd_near_hazard",
+          "confidence": 0.919,
+          "scene_description": "Smoke detected near municipal waste accumulation area.",
+          "rationale": "Scenario waste_fire_smoke with crowd_near_hazard cues under foggy_day/rain. Randomization factors: smoke_density, drone_altitude_changes, weather_variation.",
+          "temporal_evidence": [
+            "crowd_near_hazard seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-waste_fire_smoke",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "waste_fire_smoke-0009",
+    "image_ref": "airsim://synthetic/waste_fire_smoke/frame_0009.png",
+    "timestamp": "2026-05-24T11:34:15.608670+00:00",
+    "gps": {
+      "latitude": 12.975919,
+      "longitude": 77.59963
+    },
+    "altitude_m": 28.36,
+    "lighting": "foggy_day",
+    "weather": "rain",
+    "scenario": "waste_fire_smoke",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Smoke detected near municipal waste accumulation area.",
+      "event_candidates": [
+        {
+          "event_type": "smoke_or_fire",
+          "confidence": 0.706,
+          "scene_description": "Smoke detected near municipal waste accumulation area.",
+          "rationale": "Scenario waste_fire_smoke with smoke_or_fire cues under foggy_day/rain. Randomization factors: smoke_density, drone_altitude_changes, weather_variation.",
+          "temporal_evidence": [
+            "smoke_or_fire seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-waste_fire_smoke",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  },
+  {
+    "sample_id": "waste_fire_smoke-0010",
+    "image_ref": "airsim://synthetic/waste_fire_smoke/frame_0010.png",
+    "timestamp": "2026-05-24T11:37:15.608670+00:00",
+    "gps": {
+      "latitude": 12.973274,
+      "longitude": 77.597547
+    },
+    "altitude_m": 38.5,
+    "lighting": "foggy_day",
+    "weather": "cloudy",
+    "scenario": "waste_fire_smoke",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Smoke detected near municipal waste accumulation area.",
+      "event_candidates": [
+        {
+          "event_type": "waste_burning",
+          "confidence": 0.775,
+          "scene_description": "Smoke detected near municipal waste accumulation area.",
+          "rationale": "Scenario waste_fire_smoke with waste_burning cues under foggy_day/cloudy. Randomization factors: seasonal_conditions, crowd_density_variation, lighting_variation.",
+          "temporal_evidence": [
+            "waste_burning seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-waste_fire_smoke",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  },
+  {
+    "sample_id": "waste_fire_smoke-0011",
+    "image_ref": "airsim://synthetic/waste_fire_smoke/frame_0011.png",
+    "timestamp": "2026-05-24T11:40:15.608670+00:00",
+    "gps": {
+      "latitude": 12.97749,
+      "longitude": 77.593521
+    },
+    "altitude_m": 63.08,
+    "lighting": "night",
+    "weather": "clear",
+    "scenario": "waste_fire_smoke",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Smoke detected near municipal waste accumulation area.",
+      "event_candidates": [
+        {
+          "event_type": "crowd_near_hazard",
+          "confidence": 0.686,
+          "scene_description": "Smoke detected near municipal waste accumulation area.",
+          "rationale": "Scenario waste_fire_smoke with crowd_near_hazard cues under night/clear. Randomization factors: weather_variation, water_level, camera_angle_changes.",
+          "temporal_evidence": [
+            "crowd_near_hazard seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-waste_fire_smoke",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "waste_fire_smoke-0012",
+    "image_ref": "airsim://synthetic/waste_fire_smoke/frame_0012.png",
+    "timestamp": "2026-05-24T11:43:15.608670+00:00",
+    "gps": {
+      "latitude": 12.970204,
+      "longitude": 77.594524
+    },
+    "altitude_m": 30.05,
+    "lighting": "day",
+    "weather": "rain",
+    "scenario": "waste_fire_smoke",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Smoke detected near municipal waste accumulation area.",
+      "event_candidates": [
+        {
+          "event_type": "smoke_or_fire",
+          "confidence": 0.675,
+          "scene_description": "Smoke detected near municipal waste accumulation area.",
+          "rationale": "Scenario waste_fire_smoke with smoke_or_fire cues under day/rain. Randomization factors: smoke_density, crowd_density_variation, vehicle_density_variation.",
+          "temporal_evidence": [
+            "smoke_or_fire seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-waste_fire_smoke",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  },
+  {
+    "sample_id": "waste_fire_smoke-0013",
+    "image_ref": "airsim://synthetic/waste_fire_smoke/frame_0013.png",
+    "timestamp": "2026-05-24T11:46:15.608670+00:00",
+    "gps": {
+      "latitude": 12.976072,
+      "longitude": 77.600479
+    },
+    "altitude_m": 29.58,
+    "lighting": "night",
+    "weather": "cloudy",
+    "scenario": "waste_fire_smoke",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Smoke detected near municipal waste accumulation area.",
+      "event_candidates": [
+        {
+          "event_type": "waste_burning",
+          "confidence": 0.81,
+          "scene_description": "Smoke detected near municipal waste accumulation area.",
+          "rationale": "Scenario waste_fire_smoke with waste_burning cues under night/cloudy. Randomization factors: lighting_variation, weather_variation, crowd_density_variation.",
+          "temporal_evidence": [
+            "waste_burning seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-waste_fire_smoke",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  },
+  {
+    "sample_id": "waste_fire_smoke-0014",
+    "image_ref": "airsim://synthetic/waste_fire_smoke/frame_0014.png",
+    "timestamp": "2026-05-24T11:49:15.608670+00:00",
+    "gps": {
+      "latitude": 12.97908,
+      "longitude": 77.596753
+    },
+    "altitude_m": 62.66,
+    "lighting": "night",
+    "weather": "clear",
+    "scenario": "waste_fire_smoke",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Smoke detected near municipal waste accumulation area.",
+      "event_candidates": [
+        {
+          "event_type": "crowd_near_hazard",
+          "confidence": 0.85,
+          "scene_description": "Smoke detected near municipal waste accumulation area.",
+          "rationale": "Scenario waste_fire_smoke with crowd_near_hazard cues under night/clear. Randomization factors: water_level, camera_angle_changes, lighting_variation.",
+          "temporal_evidence": [
+            "crowd_near_hazard seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-waste_fire_smoke",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "waste_fire_smoke-0015",
+    "image_ref": "airsim://synthetic/waste_fire_smoke/frame_0015.png",
+    "timestamp": "2026-05-24T11:52:15.608670+00:00",
+    "gps": {
+      "latitude": 12.973016,
+      "longitude": 77.599843
+    },
+    "altitude_m": 57.22,
+    "lighting": "day",
+    "weather": "cloudy",
+    "scenario": "waste_fire_smoke",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Smoke detected near municipal waste accumulation area.",
+      "event_candidates": [
+        {
+          "event_type": "smoke_or_fire",
+          "confidence": 0.643,
+          "scene_description": "Smoke detected near municipal waste accumulation area.",
+          "rationale": "Scenario waste_fire_smoke with smoke_or_fire cues under day/cloudy. Randomization factors: rain_intensity, seasonal_conditions, vehicle_density_variation.",
+          "temporal_evidence": [
+            "smoke_or_fire seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-waste_fire_smoke",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  },
+  {
+    "sample_id": "waste_fire_smoke-0016",
+    "image_ref": "airsim://synthetic/waste_fire_smoke/frame_0016.png",
+    "timestamp": "2026-05-24T11:55:15.608670+00:00",
+    "gps": {
+      "latitude": 12.976475,
+      "longitude": 77.593127
+    },
+    "altitude_m": 41.8,
+    "lighting": "foggy_day",
+    "weather": "clear",
+    "scenario": "waste_fire_smoke",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Smoke detected near municipal waste accumulation area.",
+      "event_candidates": [
+        {
+          "event_type": "waste_burning",
+          "confidence": 0.853,
+          "scene_description": "Smoke detected near municipal waste accumulation area.",
+          "rationale": "Scenario waste_fire_smoke with waste_burning cues under foggy_day/clear. Randomization factors: seasonal_conditions, vehicle_density_variation, smoke_density.",
+          "temporal_evidence": [
+            "waste_burning seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-waste_fire_smoke",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  },
+  {
+    "sample_id": "waste_fire_smoke-0017",
+    "image_ref": "airsim://synthetic/waste_fire_smoke/frame_0017.png",
+    "timestamp": "2026-05-24T11:58:15.608670+00:00",
+    "gps": {
+      "latitude": 12.974355,
+      "longitude": 77.600338
+    },
+    "altitude_m": 63.62,
+    "lighting": "dusk",
+    "weather": "haze",
+    "scenario": "waste_fire_smoke",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Smoke detected near municipal waste accumulation area.",
+      "event_candidates": [
+        {
+          "event_type": "crowd_near_hazard",
+          "confidence": 0.726,
+          "scene_description": "Smoke detected near municipal waste accumulation area.",
+          "rationale": "Scenario waste_fire_smoke with crowd_near_hazard cues under dusk/haze. Randomization factors: smoke_density, seasonal_conditions, crowd_density_variation.",
+          "temporal_evidence": [
+            "crowd_near_hazard seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-waste_fire_smoke",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "waste_fire_smoke-0018",
+    "image_ref": "airsim://synthetic/waste_fire_smoke/frame_0018.png",
+    "timestamp": "2026-05-24T12:01:15.608670+00:00",
+    "gps": {
+      "latitude": 12.972455,
+      "longitude": 77.602346
+    },
+    "altitude_m": 36.16,
+    "lighting": "foggy_day",
+    "weather": "rain",
+    "scenario": "waste_fire_smoke",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Smoke detected near municipal waste accumulation area.",
+      "event_candidates": [
+        {
+          "event_type": "smoke_or_fire",
+          "confidence": 0.629,
+          "scene_description": "Smoke detected near municipal waste accumulation area.",
+          "rationale": "Scenario waste_fire_smoke with smoke_or_fire cues under foggy_day/rain. Randomization factors: smoke_density, seasonal_conditions, vehicle_density_variation.",
+          "temporal_evidence": [
+            "smoke_or_fire seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-waste_fire_smoke",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  },
+  {
+    "sample_id": "waste_fire_smoke-0019",
+    "image_ref": "airsim://synthetic/waste_fire_smoke/frame_0019.png",
+    "timestamp": "2026-05-24T12:04:15.608670+00:00",
+    "gps": {
+      "latitude": 12.97851,
+      "longitude": 77.594818
+    },
+    "altitude_m": 33.48,
+    "lighting": "dusk",
+    "weather": "cloudy",
+    "scenario": "waste_fire_smoke",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Smoke detected near municipal waste accumulation area.",
+      "event_candidates": [
+        {
+          "event_type": "waste_burning",
+          "confidence": 0.79,
+          "scene_description": "Smoke detected near municipal waste accumulation area.",
+          "rationale": "Scenario waste_fire_smoke with waste_burning cues under dusk/cloudy. Randomization factors: crowd_density_variation, water_level, weather_variation.",
+          "temporal_evidence": [
+            "waste_burning seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-waste_fire_smoke",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  },
+  {
+    "sample_id": "waste_fire_smoke-0020",
+    "image_ref": "airsim://synthetic/waste_fire_smoke/frame_0020.png",
+    "timestamp": "2026-05-24T12:07:15.608670+00:00",
+    "gps": {
+      "latitude": 12.971911,
+      "longitude": 77.595414
+    },
+    "altitude_m": 41.26,
+    "lighting": "night",
+    "weather": "haze",
+    "scenario": "waste_fire_smoke",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Smoke detected near municipal waste accumulation area.",
+      "event_candidates": [
+        {
+          "event_type": "crowd_near_hazard",
+          "confidence": 0.651,
+          "scene_description": "Smoke detected near municipal waste accumulation area.",
+          "rationale": "Scenario waste_fire_smoke with crowd_near_hazard cues under night/haze. Randomization factors: smoke_density, water_level, weather_variation.",
+          "temporal_evidence": [
+            "crowd_near_hazard seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-waste_fire_smoke",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "waste_fire_smoke-0021",
+    "image_ref": "airsim://synthetic/waste_fire_smoke/frame_0021.png",
+    "timestamp": "2026-05-24T12:10:15.608670+00:00",
+    "gps": {
+      "latitude": 12.972216,
+      "longitude": 77.599918
+    },
+    "altitude_m": 37.25,
+    "lighting": "dusk",
+    "weather": "haze",
+    "scenario": "waste_fire_smoke",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Smoke detected near municipal waste accumulation area.",
+      "event_candidates": [
+        {
+          "event_type": "smoke_or_fire",
+          "confidence": 0.76,
+          "scene_description": "Smoke detected near municipal waste accumulation area.",
+          "rationale": "Scenario waste_fire_smoke with smoke_or_fire cues under dusk/haze. Randomization factors: rain_intensity, water_level, vehicle_density_variation.",
+          "temporal_evidence": [
+            "smoke_or_fire seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-waste_fire_smoke",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  },
+  {
+    "sample_id": "waste_fire_smoke-0022",
+    "image_ref": "airsim://synthetic/waste_fire_smoke/frame_0022.png",
+    "timestamp": "2026-05-24T12:13:15.608670+00:00",
+    "gps": {
+      "latitude": 12.977459,
+      "longitude": 77.596308
+    },
+    "altitude_m": 53.11,
+    "lighting": "dusk",
+    "weather": "cloudy",
+    "scenario": "waste_fire_smoke",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Smoke detected near municipal waste accumulation area.",
+      "event_candidates": [
+        {
+          "event_type": "waste_burning",
+          "confidence": 0.858,
+          "scene_description": "Smoke detected near municipal waste accumulation area.",
+          "rationale": "Scenario waste_fire_smoke with waste_burning cues under dusk/cloudy. Randomization factors: crowd_density_variation, camera_angle_changes, lighting_variation.",
+          "temporal_evidence": [
+            "waste_burning seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-waste_fire_smoke",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  },
+  {
+    "sample_id": "waste_fire_smoke-0023",
+    "image_ref": "airsim://synthetic/waste_fire_smoke/frame_0023.png",
+    "timestamp": "2026-05-24T12:16:15.608670+00:00",
+    "gps": {
+      "latitude": 12.973155,
+      "longitude": 77.600429
+    },
+    "altitude_m": 63.04,
+    "lighting": "night",
+    "weather": "rain",
+    "scenario": "waste_fire_smoke",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Smoke detected near municipal waste accumulation area.",
+      "event_candidates": [
+        {
+          "event_type": "crowd_near_hazard",
+          "confidence": 0.859,
+          "scene_description": "Smoke detected near municipal waste accumulation area.",
+          "rationale": "Scenario waste_fire_smoke with crowd_near_hazard cues under night/rain. Randomization factors: camera_angle_changes, smoke_density, crowd_density_variation.",
+          "temporal_evidence": [
+            "crowd_near_hazard seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-waste_fire_smoke",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "drain_blockage_waterlogging-0000",
+    "image_ref": "airsim://synthetic/drain_blockage_waterlogging/frame_0000.png",
+    "timestamp": "2026-05-24T12:19:15.608670+00:00",
+    "gps": {
+      "latitude": 12.979766,
+      "longitude": 77.598246
+    },
+    "altitude_m": 36.32,
+    "lighting": "day",
+    "weather": "rain",
+    "scenario": "drain_blockage_waterlogging",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Drain blockage likely causing water stagnation risk.",
+      "event_candidates": [
+        {
+          "event_type": "drain_blockage",
+          "confidence": 0.679,
+          "scene_description": "Drain blockage likely causing water stagnation risk.",
+          "rationale": "Scenario drain_blockage_waterlogging with drain_blockage cues under day/rain. Randomization factors: crowd_density_variation, camera_angle_changes, vehicle_density_variation.",
+          "temporal_evidence": [
+            "drain_blockage seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-drain_blockage_waterlogging",
+    "severity": "Moderate Trigger",
+    "risk": "high"
+  },
+  {
+    "sample_id": "drain_blockage_waterlogging-0001",
+    "image_ref": "airsim://synthetic/drain_blockage_waterlogging/frame_0001.png",
+    "timestamp": "2026-05-24T12:22:15.608670+00:00",
+    "gps": {
+      "latitude": 12.970141,
+      "longitude": 77.598341
+    },
+    "altitude_m": 35.97,
+    "lighting": "day",
+    "weather": "cloudy",
+    "scenario": "drain_blockage_waterlogging",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Drain blockage likely causing water stagnation risk.",
+      "event_candidates": [
+        {
+          "event_type": "waterlogging",
+          "confidence": 0.908,
+          "scene_description": "Drain blockage likely causing water stagnation risk.",
+          "rationale": "Scenario drain_blockage_waterlogging with waterlogging cues under day/cloudy. Randomization factors: drone_altitude_changes, smoke_density, lighting_variation.",
+          "temporal_evidence": [
+            "waterlogging seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-drain_blockage_waterlogging",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "drain_blockage_waterlogging-0002",
+    "image_ref": "airsim://synthetic/drain_blockage_waterlogging/frame_0002.png",
+    "timestamp": "2026-05-24T12:25:15.608670+00:00",
+    "gps": {
+      "latitude": 12.975741,
+      "longitude": 77.597694
+    },
+    "altitude_m": 42.62,
+    "lighting": "night",
+    "weather": "clear",
+    "scenario": "drain_blockage_waterlogging",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Drain blockage likely causing water stagnation risk.",
+      "event_candidates": [
+        {
+          "event_type": "environmental_contamination",
+          "confidence": 0.891,
+          "scene_description": "Drain blockage likely causing water stagnation risk.",
+          "rationale": "Scenario drain_blockage_waterlogging with environmental_contamination cues under night/clear. Randomization factors: crowd_density_variation, smoke_density, lighting_variation.",
+          "temporal_evidence": [
+            "environmental_contamination seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-drain_blockage_waterlogging",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "drain_blockage_waterlogging-0003",
+    "image_ref": "airsim://synthetic/drain_blockage_waterlogging/frame_0003.png",
+    "timestamp": "2026-05-24T12:28:15.608670+00:00",
+    "gps": {
+      "latitude": 12.974007,
+      "longitude": 77.593741
+    },
+    "altitude_m": 50.18,
+    "lighting": "day",
+    "weather": "rain",
+    "scenario": "drain_blockage_waterlogging",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Drain blockage likely causing water stagnation risk.",
+      "event_candidates": [
+        {
+          "event_type": "drain_blockage",
+          "confidence": 0.948,
+          "scene_description": "Drain blockage likely causing water stagnation risk.",
+          "rationale": "Scenario drain_blockage_waterlogging with drain_blockage cues under day/rain. Randomization factors: drone_altitude_changes, crowd_density_variation, lighting_variation.",
+          "temporal_evidence": [
+            "drain_blockage seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-drain_blockage_waterlogging",
+    "severity": "Moderate Trigger",
+    "risk": "high"
+  },
+  {
+    "sample_id": "drain_blockage_waterlogging-0004",
+    "image_ref": "airsim://synthetic/drain_blockage_waterlogging/frame_0004.png",
+    "timestamp": "2026-05-24T12:31:15.608670+00:00",
+    "gps": {
+      "latitude": 12.971185,
+      "longitude": 77.600644
+    },
+    "altitude_m": 49.25,
+    "lighting": "night",
+    "weather": "haze",
+    "scenario": "drain_blockage_waterlogging",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Drain blockage likely causing water stagnation risk.",
+      "event_candidates": [
+        {
+          "event_type": "waterlogging",
+          "confidence": 0.904,
+          "scene_description": "Drain blockage likely causing water stagnation risk.",
+          "rationale": "Scenario drain_blockage_waterlogging with waterlogging cues under night/haze. Randomization factors: smoke_density, water_level, crowd_density_variation.",
+          "temporal_evidence": [
+            "waterlogging seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-drain_blockage_waterlogging",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "drain_blockage_waterlogging-0005",
+    "image_ref": "airsim://synthetic/drain_blockage_waterlogging/frame_0005.png",
+    "timestamp": "2026-05-24T12:34:15.608670+00:00",
+    "gps": {
+      "latitude": 12.9799,
+      "longitude": 77.596054
+    },
+    "altitude_m": 49.84,
+    "lighting": "day",
+    "weather": "rain",
+    "scenario": "drain_blockage_waterlogging",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Drain blockage likely causing water stagnation risk.",
+      "event_candidates": [
+        {
+          "event_type": "environmental_contamination",
+          "confidence": 0.672,
+          "scene_description": "Drain blockage likely causing water stagnation risk.",
+          "rationale": "Scenario drain_blockage_waterlogging with environmental_contamination cues under day/rain. Randomization factors: camera_angle_changes, crowd_density_variation, lighting_variation.",
+          "temporal_evidence": [
+            "environmental_contamination seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-drain_blockage_waterlogging",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "drain_blockage_waterlogging-0006",
+    "image_ref": "airsim://synthetic/drain_blockage_waterlogging/frame_0006.png",
+    "timestamp": "2026-05-24T12:37:15.608670+00:00",
+    "gps": {
+      "latitude": 12.971738,
+      "longitude": 77.593751
+    },
+    "altitude_m": 25.11,
+    "lighting": "foggy_day",
+    "weather": "haze",
+    "scenario": "drain_blockage_waterlogging",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Drain blockage likely causing water stagnation risk.",
+      "event_candidates": [
+        {
+          "event_type": "drain_blockage",
+          "confidence": 0.715,
+          "scene_description": "Drain blockage likely causing water stagnation risk.",
+          "rationale": "Scenario drain_blockage_waterlogging with drain_blockage cues under foggy_day/haze. Randomization factors: crowd_density_variation, weather_variation, camera_angle_changes.",
+          "temporal_evidence": [
+            "drain_blockage seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-drain_blockage_waterlogging",
+    "severity": "Moderate Trigger",
+    "risk": "high"
+  },
+  {
+    "sample_id": "drain_blockage_waterlogging-0007",
+    "image_ref": "airsim://synthetic/drain_blockage_waterlogging/frame_0007.png",
+    "timestamp": "2026-05-24T12:40:15.608670+00:00",
+    "gps": {
+      "latitude": 12.972827,
+      "longitude": 77.601596
+    },
+    "altitude_m": 27.85,
+    "lighting": "night",
+    "weather": "cloudy",
+    "scenario": "drain_blockage_waterlogging",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Drain blockage likely causing water stagnation risk.",
+      "event_candidates": [
+        {
+          "event_type": "waterlogging",
+          "confidence": 0.658,
+          "scene_description": "Drain blockage likely causing water stagnation risk.",
+          "rationale": "Scenario drain_blockage_waterlogging with waterlogging cues under night/cloudy. Randomization factors: water_level, camera_angle_changes, seasonal_conditions.",
+          "temporal_evidence": [
+            "waterlogging seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-drain_blockage_waterlogging",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "drain_blockage_waterlogging-0008",
+    "image_ref": "airsim://synthetic/drain_blockage_waterlogging/frame_0008.png",
+    "timestamp": "2026-05-24T12:43:15.608670+00:00",
+    "gps": {
+      "latitude": 12.972248,
+      "longitude": 77.59449
+    },
+    "altitude_m": 35.63,
+    "lighting": "night",
+    "weather": "clear",
+    "scenario": "drain_blockage_waterlogging",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Drain blockage likely causing water stagnation risk.",
+      "event_candidates": [
+        {
+          "event_type": "environmental_contamination",
+          "confidence": 0.816,
+          "scene_description": "Drain blockage likely causing water stagnation risk.",
+          "rationale": "Scenario drain_blockage_waterlogging with environmental_contamination cues under night/clear. Randomization factors: weather_variation, drone_altitude_changes, crowd_density_variation.",
+          "temporal_evidence": [
+            "environmental_contamination seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-drain_blockage_waterlogging",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "drain_blockage_waterlogging-0009",
+    "image_ref": "airsim://synthetic/drain_blockage_waterlogging/frame_0009.png",
+    "timestamp": "2026-05-24T12:46:15.608670+00:00",
+    "gps": {
+      "latitude": 12.978242,
+      "longitude": 77.602212
+    },
+    "altitude_m": 42.57,
+    "lighting": "foggy_day",
+    "weather": "cloudy",
+    "scenario": "drain_blockage_waterlogging",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Drain blockage likely causing water stagnation risk.",
+      "event_candidates": [
+        {
+          "event_type": "drain_blockage",
+          "confidence": 0.764,
+          "scene_description": "Drain blockage likely causing water stagnation risk.",
+          "rationale": "Scenario drain_blockage_waterlogging with drain_blockage cues under foggy_day/cloudy. Randomization factors: seasonal_conditions, crowd_density_variation, smoke_density.",
+          "temporal_evidence": [
+            "drain_blockage seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-drain_blockage_waterlogging",
+    "severity": "Moderate Trigger",
+    "risk": "high"
+  },
+  {
+    "sample_id": "drain_blockage_waterlogging-0010",
+    "image_ref": "airsim://synthetic/drain_blockage_waterlogging/frame_0010.png",
+    "timestamp": "2026-05-24T12:49:15.608670+00:00",
+    "gps": {
+      "latitude": 12.97598,
+      "longitude": 77.601894
+    },
+    "altitude_m": 54.38,
+    "lighting": "dusk",
+    "weather": "clear",
+    "scenario": "drain_blockage_waterlogging",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Drain blockage likely causing water stagnation risk.",
+      "event_candidates": [
+        {
+          "event_type": "waterlogging",
+          "confidence": 0.95,
+          "scene_description": "Drain blockage likely causing water stagnation risk.",
+          "rationale": "Scenario drain_blockage_waterlogging with waterlogging cues under dusk/clear. Randomization factors: lighting_variation, camera_angle_changes, weather_variation.",
+          "temporal_evidence": [
+            "waterlogging seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-drain_blockage_waterlogging",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "drain_blockage_waterlogging-0011",
+    "image_ref": "airsim://synthetic/drain_blockage_waterlogging/frame_0011.png",
+    "timestamp": "2026-05-24T12:52:15.608670+00:00",
+    "gps": {
+      "latitude": 12.976723,
+      "longitude": 77.595695
+    },
+    "altitude_m": 26.61,
+    "lighting": "night",
+    "weather": "haze",
+    "scenario": "drain_blockage_waterlogging",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Drain blockage likely causing water stagnation risk.",
+      "event_candidates": [
+        {
+          "event_type": "environmental_contamination",
+          "confidence": 0.68,
+          "scene_description": "Drain blockage likely causing water stagnation risk.",
+          "rationale": "Scenario drain_blockage_waterlogging with environmental_contamination cues under night/haze. Randomization factors: rain_intensity, smoke_density, crowd_density_variation.",
+          "temporal_evidence": [
+            "environmental_contamination seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-drain_blockage_waterlogging",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "drain_blockage_waterlogging-0012",
+    "image_ref": "airsim://synthetic/drain_blockage_waterlogging/frame_0012.png",
+    "timestamp": "2026-05-24T12:55:15.608670+00:00",
+    "gps": {
+      "latitude": 12.975853,
+      "longitude": 77.599348
+    },
+    "altitude_m": 44.67,
+    "lighting": "day",
+    "weather": "haze",
+    "scenario": "drain_blockage_waterlogging",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Drain blockage likely causing water stagnation risk.",
+      "event_candidates": [
+        {
+          "event_type": "drain_blockage",
+          "confidence": 0.726,
+          "scene_description": "Drain blockage likely causing water stagnation risk.",
+          "rationale": "Scenario drain_blockage_waterlogging with drain_blockage cues under day/haze. Randomization factors: vehicle_density_variation, seasonal_conditions, water_level.",
+          "temporal_evidence": [
+            "drain_blockage seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-drain_blockage_waterlogging",
+    "severity": "Moderate Trigger",
+    "risk": "high"
+  },
+  {
+    "sample_id": "drain_blockage_waterlogging-0013",
+    "image_ref": "airsim://synthetic/drain_blockage_waterlogging/frame_0013.png",
+    "timestamp": "2026-05-24T12:58:15.608670+00:00",
+    "gps": {
+      "latitude": 12.971046,
+      "longitude": 77.594608
+    },
+    "altitude_m": 41.47,
+    "lighting": "foggy_day",
+    "weather": "cloudy",
+    "scenario": "drain_blockage_waterlogging",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Drain blockage likely causing water stagnation risk.",
+      "event_candidates": [
+        {
+          "event_type": "waterlogging",
+          "confidence": 0.77,
+          "scene_description": "Drain blockage likely causing water stagnation risk.",
+          "rationale": "Scenario drain_blockage_waterlogging with waterlogging cues under foggy_day/cloudy. Randomization factors: seasonal_conditions, rain_intensity, weather_variation.",
+          "temporal_evidence": [
+            "waterlogging seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-drain_blockage_waterlogging",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "drain_blockage_waterlogging-0014",
+    "image_ref": "airsim://synthetic/drain_blockage_waterlogging/frame_0014.png",
+    "timestamp": "2026-05-24T13:01:15.608670+00:00",
+    "gps": {
+      "latitude": 12.973145,
+      "longitude": 77.596233
+    },
+    "altitude_m": 63.81,
+    "lighting": "foggy_day",
+    "weather": "clear",
+    "scenario": "drain_blockage_waterlogging",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Drain blockage likely causing water stagnation risk.",
+      "event_candidates": [
+        {
+          "event_type": "environmental_contamination",
+          "confidence": 0.638,
+          "scene_description": "Drain blockage likely causing water stagnation risk.",
+          "rationale": "Scenario drain_blockage_waterlogging with environmental_contamination cues under foggy_day/clear. Randomization factors: rain_intensity, smoke_density, seasonal_conditions.",
+          "temporal_evidence": [
+            "environmental_contamination seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-drain_blockage_waterlogging",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "drain_blockage_waterlogging-0015",
+    "image_ref": "airsim://synthetic/drain_blockage_waterlogging/frame_0015.png",
+    "timestamp": "2026-05-24T13:04:15.608670+00:00",
+    "gps": {
+      "latitude": 12.975184,
+      "longitude": 77.599226
+    },
+    "altitude_m": 44.94,
+    "lighting": "foggy_day",
+    "weather": "clear",
+    "scenario": "drain_blockage_waterlogging",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Drain blockage likely causing water stagnation risk.",
+      "event_candidates": [
+        {
+          "event_type": "drain_blockage",
+          "confidence": 0.926,
+          "scene_description": "Drain blockage likely causing water stagnation risk.",
+          "rationale": "Scenario drain_blockage_waterlogging with drain_blockage cues under foggy_day/clear. Randomization factors: camera_angle_changes, crowd_density_variation, drone_altitude_changes.",
+          "temporal_evidence": [
+            "drain_blockage seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-drain_blockage_waterlogging",
+    "severity": "Moderate Trigger",
+    "risk": "high"
+  },
+  {
+    "sample_id": "drain_blockage_waterlogging-0016",
+    "image_ref": "airsim://synthetic/drain_blockage_waterlogging/frame_0016.png",
+    "timestamp": "2026-05-24T13:07:15.608670+00:00",
+    "gps": {
+      "latitude": 12.974381,
+      "longitude": 77.599983
+    },
+    "altitude_m": 29.86,
+    "lighting": "night",
+    "weather": "rain",
+    "scenario": "drain_blockage_waterlogging",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Drain blockage likely causing water stagnation risk.",
+      "event_candidates": [
+        {
+          "event_type": "waterlogging",
+          "confidence": 0.802,
+          "scene_description": "Drain blockage likely causing water stagnation risk.",
+          "rationale": "Scenario drain_blockage_waterlogging with waterlogging cues under night/rain. Randomization factors: crowd_density_variation, rain_intensity, weather_variation.",
+          "temporal_evidence": [
+            "waterlogging seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-drain_blockage_waterlogging",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "drain_blockage_waterlogging-0017",
+    "image_ref": "airsim://synthetic/drain_blockage_waterlogging/frame_0017.png",
+    "timestamp": "2026-05-24T13:10:15.608670+00:00",
+    "gps": {
+      "latitude": 12.970932,
+      "longitude": 77.602923
+    },
+    "altitude_m": 61.52,
+    "lighting": "foggy_day",
+    "weather": "clear",
+    "scenario": "drain_blockage_waterlogging",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Drain blockage likely causing water stagnation risk.",
+      "event_candidates": [
+        {
+          "event_type": "environmental_contamination",
+          "confidence": 0.788,
+          "scene_description": "Drain blockage likely causing water stagnation risk.",
+          "rationale": "Scenario drain_blockage_waterlogging with environmental_contamination cues under foggy_day/clear. Randomization factors: drone_altitude_changes, smoke_density, crowd_density_variation.",
+          "temporal_evidence": [
+            "environmental_contamination seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-drain_blockage_waterlogging",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "drain_blockage_waterlogging-0018",
+    "image_ref": "airsim://synthetic/drain_blockage_waterlogging/frame_0018.png",
+    "timestamp": "2026-05-24T13:13:15.608670+00:00",
+    "gps": {
+      "latitude": 12.972734,
+      "longitude": 77.601347
+    },
+    "altitude_m": 64.21,
+    "lighting": "night",
+    "weather": "haze",
+    "scenario": "drain_blockage_waterlogging",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Drain blockage likely causing water stagnation risk.",
+      "event_candidates": [
+        {
+          "event_type": "drain_blockage",
+          "confidence": 0.683,
+          "scene_description": "Drain blockage likely causing water stagnation risk.",
+          "rationale": "Scenario drain_blockage_waterlogging with drain_blockage cues under night/haze. Randomization factors: rain_intensity, drone_altitude_changes, seasonal_conditions.",
+          "temporal_evidence": [
+            "drain_blockage seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-drain_blockage_waterlogging",
+    "severity": "Moderate Trigger",
+    "risk": "high"
+  },
+  {
+    "sample_id": "drain_blockage_waterlogging-0019",
+    "image_ref": "airsim://synthetic/drain_blockage_waterlogging/frame_0019.png",
+    "timestamp": "2026-05-24T13:16:15.608670+00:00",
+    "gps": {
+      "latitude": 12.975994,
+      "longitude": 77.600463
+    },
+    "altitude_m": 30.46,
+    "lighting": "day",
+    "weather": "cloudy",
+    "scenario": "drain_blockage_waterlogging",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Drain blockage likely causing water stagnation risk.",
+      "event_candidates": [
+        {
+          "event_type": "waterlogging",
+          "confidence": 0.891,
+          "scene_description": "Drain blockage likely causing water stagnation risk.",
+          "rationale": "Scenario drain_blockage_waterlogging with waterlogging cues under day/cloudy. Randomization factors: seasonal_conditions, vehicle_density_variation, crowd_density_variation.",
+          "temporal_evidence": [
+            "waterlogging seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-drain_blockage_waterlogging",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "drain_blockage_waterlogging-0020",
+    "image_ref": "airsim://synthetic/drain_blockage_waterlogging/frame_0020.png",
+    "timestamp": "2026-05-24T13:19:15.608670+00:00",
+    "gps": {
+      "latitude": 12.972828,
+      "longitude": 77.595986
+    },
+    "altitude_m": 48.48,
+    "lighting": "foggy_day",
+    "weather": "rain",
+    "scenario": "drain_blockage_waterlogging",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Drain blockage likely causing water stagnation risk.",
+      "event_candidates": [
+        {
+          "event_type": "environmental_contamination",
+          "confidence": 0.734,
+          "scene_description": "Drain blockage likely causing water stagnation risk.",
+          "rationale": "Scenario drain_blockage_waterlogging with environmental_contamination cues under foggy_day/rain. Randomization factors: smoke_density, rain_intensity, water_level.",
+          "temporal_evidence": [
+            "environmental_contamination seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-drain_blockage_waterlogging",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "drain_blockage_waterlogging-0021",
+    "image_ref": "airsim://synthetic/drain_blockage_waterlogging/frame_0021.png",
+    "timestamp": "2026-05-24T13:22:15.608670+00:00",
+    "gps": {
+      "latitude": 12.975519,
+      "longitude": 77.598434
+    },
+    "altitude_m": 43.21,
+    "lighting": "dusk",
+    "weather": "rain",
+    "scenario": "drain_blockage_waterlogging",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Drain blockage likely causing water stagnation risk.",
+      "event_candidates": [
+        {
+          "event_type": "drain_blockage",
+          "confidence": 0.902,
+          "scene_description": "Drain blockage likely causing water stagnation risk.",
+          "rationale": "Scenario drain_blockage_waterlogging with drain_blockage cues under dusk/rain. Randomization factors: camera_angle_changes, seasonal_conditions, water_level.",
+          "temporal_evidence": [
+            "drain_blockage seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-drain_blockage_waterlogging",
+    "severity": "Moderate Trigger",
+    "risk": "high"
+  },
+  {
+    "sample_id": "drain_blockage_waterlogging-0022",
+    "image_ref": "airsim://synthetic/drain_blockage_waterlogging/frame_0022.png",
+    "timestamp": "2026-05-24T13:25:15.608670+00:00",
+    "gps": {
+      "latitude": 12.974108,
+      "longitude": 77.596182
+    },
+    "altitude_m": 43.92,
+    "lighting": "foggy_day",
+    "weather": "haze",
+    "scenario": "drain_blockage_waterlogging",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Drain blockage likely causing water stagnation risk.",
+      "event_candidates": [
+        {
+          "event_type": "waterlogging",
+          "confidence": 0.662,
+          "scene_description": "Drain blockage likely causing water stagnation risk.",
+          "rationale": "Scenario drain_blockage_waterlogging with waterlogging cues under foggy_day/haze. Randomization factors: drone_altitude_changes, smoke_density, weather_variation.",
+          "temporal_evidence": [
+            "waterlogging seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-drain_blockage_waterlogging",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "drain_blockage_waterlogging-0023",
+    "image_ref": "airsim://synthetic/drain_blockage_waterlogging/frame_0023.png",
+    "timestamp": "2026-05-24T13:28:15.608670+00:00",
+    "gps": {
+      "latitude": 12.979654,
+      "longitude": 77.59632
+    },
+    "altitude_m": 29.01,
+    "lighting": "foggy_day",
+    "weather": "clear",
+    "scenario": "drain_blockage_waterlogging",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Drain blockage likely causing water stagnation risk.",
+      "event_candidates": [
+        {
+          "event_type": "environmental_contamination",
+          "confidence": 0.858,
+          "scene_description": "Drain blockage likely causing water stagnation risk.",
+          "rationale": "Scenario drain_blockage_waterlogging with environmental_contamination cues under foggy_day/clear. Randomization factors: rain_intensity, smoke_density, weather_variation.",
+          "temporal_evidence": [
+            "environmental_contamination seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-drain_blockage_waterlogging",
+    "severity": "Minor Trigger",
+    "risk": "low"
+  },
+  {
+    "sample_id": "industrial_chemical_spill-0000",
+    "image_ref": "airsim://synthetic/industrial_chemical_spill/frame_0000.png",
+    "timestamp": "2026-05-24T13:31:15.608670+00:00",
+    "gps": {
+      "latitude": 12.9741,
+      "longitude": 77.599548
+    },
+    "altitude_m": 31.17,
+    "lighting": "foggy_day",
+    "weather": "cloudy",
+    "scenario": "industrial_chemical_spill",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Possible toxic leakage in industrial waste zone.",
+      "event_candidates": [
+        {
+          "event_type": "chemical_spill",
+          "confidence": 0.901,
+          "scene_description": "Possible toxic leakage in industrial waste zone.",
+          "rationale": "Scenario industrial_chemical_spill with chemical_spill cues under foggy_day/cloudy. Randomization factors: vehicle_density_variation, seasonal_conditions, lighting_variation.",
+          "temporal_evidence": [
+            "chemical_spill seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-industrial_chemical_spill",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  },
+  {
+    "sample_id": "industrial_chemical_spill-0001",
+    "image_ref": "airsim://synthetic/industrial_chemical_spill/frame_0001.png",
+    "timestamp": "2026-05-24T13:34:15.608670+00:00",
+    "gps": {
+      "latitude": 12.978523,
+      "longitude": 77.601593
+    },
+    "altitude_m": 40.2,
+    "lighting": "dusk",
+    "weather": "haze",
+    "scenario": "industrial_chemical_spill",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Possible toxic leakage in industrial waste zone.",
+      "event_candidates": [
+        {
+          "event_type": "toxic_leakage",
+          "confidence": 0.697,
+          "scene_description": "Possible toxic leakage in industrial waste zone.",
+          "rationale": "Scenario industrial_chemical_spill with toxic_leakage cues under dusk/haze. Randomization factors: rain_intensity, weather_variation, lighting_variation.",
+          "temporal_evidence": [
+            "toxic_leakage seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-industrial_chemical_spill",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  },
+  {
+    "sample_id": "industrial_chemical_spill-0002",
+    "image_ref": "airsim://synthetic/industrial_chemical_spill/frame_0002.png",
+    "timestamp": "2026-05-24T13:37:15.608670+00:00",
+    "gps": {
+      "latitude": 12.976844,
+      "longitude": 77.595874
+    },
+    "altitude_m": 34.1,
+    "lighting": "day",
+    "weather": "haze",
+    "scenario": "industrial_chemical_spill",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Possible toxic leakage in industrial waste zone.",
+      "event_candidates": [
+        {
+          "event_type": "hazardous_waste_exposure",
+          "confidence": 0.675,
+          "scene_description": "Possible toxic leakage in industrial waste zone.",
+          "rationale": "Scenario industrial_chemical_spill with hazardous_waste_exposure cues under day/haze. Randomization factors: lighting_variation, water_level, smoke_density.",
+          "temporal_evidence": [
+            "hazardous_waste_exposure seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-industrial_chemical_spill",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  },
+  {
+    "sample_id": "industrial_chemical_spill-0003",
+    "image_ref": "airsim://synthetic/industrial_chemical_spill/frame_0003.png",
+    "timestamp": "2026-05-24T13:40:15.608670+00:00",
+    "gps": {
+      "latitude": 12.972995,
+      "longitude": 77.593289
+    },
+    "altitude_m": 37.97,
+    "lighting": "day",
+    "weather": "cloudy",
+    "scenario": "industrial_chemical_spill",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Possible toxic leakage in industrial waste zone.",
+      "event_candidates": [
+        {
+          "event_type": "chemical_spill",
+          "confidence": 0.668,
+          "scene_description": "Possible toxic leakage in industrial waste zone.",
+          "rationale": "Scenario industrial_chemical_spill with chemical_spill cues under day/cloudy. Randomization factors: vehicle_density_variation, water_level, seasonal_conditions.",
+          "temporal_evidence": [
+            "chemical_spill seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-industrial_chemical_spill",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  },
+  {
+    "sample_id": "industrial_chemical_spill-0004",
+    "image_ref": "airsim://synthetic/industrial_chemical_spill/frame_0004.png",
+    "timestamp": "2026-05-24T13:43:15.608670+00:00",
+    "gps": {
+      "latitude": 12.975312,
+      "longitude": 77.598659
+    },
+    "altitude_m": 56.7,
+    "lighting": "night",
+    "weather": "rain",
+    "scenario": "industrial_chemical_spill",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Possible toxic leakage in industrial waste zone.",
+      "event_candidates": [
+        {
+          "event_type": "toxic_leakage",
+          "confidence": 0.784,
+          "scene_description": "Possible toxic leakage in industrial waste zone.",
+          "rationale": "Scenario industrial_chemical_spill with toxic_leakage cues under night/rain. Randomization factors: lighting_variation, seasonal_conditions, camera_angle_changes.",
+          "temporal_evidence": [
+            "toxic_leakage seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-industrial_chemical_spill",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  },
+  {
+    "sample_id": "industrial_chemical_spill-0005",
+    "image_ref": "airsim://synthetic/industrial_chemical_spill/frame_0005.png",
+    "timestamp": "2026-05-24T13:46:15.608670+00:00",
+    "gps": {
+      "latitude": 12.975832,
+      "longitude": 77.595322
+    },
+    "altitude_m": 50.52,
+    "lighting": "foggy_day",
+    "weather": "cloudy",
+    "scenario": "industrial_chemical_spill",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Possible toxic leakage in industrial waste zone.",
+      "event_candidates": [
+        {
+          "event_type": "hazardous_waste_exposure",
+          "confidence": 0.844,
+          "scene_description": "Possible toxic leakage in industrial waste zone.",
+          "rationale": "Scenario industrial_chemical_spill with hazardous_waste_exposure cues under foggy_day/cloudy. Randomization factors: weather_variation, smoke_density, crowd_density_variation.",
+          "temporal_evidence": [
+            "hazardous_waste_exposure seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-industrial_chemical_spill",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  },
+  {
+    "sample_id": "industrial_chemical_spill-0006",
+    "image_ref": "airsim://synthetic/industrial_chemical_spill/frame_0006.png",
+    "timestamp": "2026-05-24T13:49:15.608670+00:00",
+    "gps": {
+      "latitude": 12.97158,
+      "longitude": 77.597417
+    },
+    "altitude_m": 38.82,
+    "lighting": "dusk",
+    "weather": "haze",
+    "scenario": "industrial_chemical_spill",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Possible toxic leakage in industrial waste zone.",
+      "event_candidates": [
+        {
+          "event_type": "chemical_spill",
+          "confidence": 0.686,
+          "scene_description": "Possible toxic leakage in industrial waste zone.",
+          "rationale": "Scenario industrial_chemical_spill with chemical_spill cues under dusk/haze. Randomization factors: crowd_density_variation, smoke_density, water_level.",
+          "temporal_evidence": [
+            "chemical_spill seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-industrial_chemical_spill",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  },
+  {
+    "sample_id": "industrial_chemical_spill-0007",
+    "image_ref": "airsim://synthetic/industrial_chemical_spill/frame_0007.png",
+    "timestamp": "2026-05-24T13:52:15.608670+00:00",
+    "gps": {
+      "latitude": 12.973847,
+      "longitude": 77.597832
+    },
+    "altitude_m": 34.49,
+    "lighting": "dusk",
+    "weather": "cloudy",
+    "scenario": "industrial_chemical_spill",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Possible toxic leakage in industrial waste zone.",
+      "event_candidates": [
+        {
+          "event_type": "toxic_leakage",
+          "confidence": 0.711,
+          "scene_description": "Possible toxic leakage in industrial waste zone.",
+          "rationale": "Scenario industrial_chemical_spill with toxic_leakage cues under dusk/cloudy. Randomization factors: crowd_density_variation, weather_variation, seasonal_conditions.",
+          "temporal_evidence": [
+            "toxic_leakage seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-industrial_chemical_spill",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  },
+  {
+    "sample_id": "industrial_chemical_spill-0008",
+    "image_ref": "airsim://synthetic/industrial_chemical_spill/frame_0008.png",
+    "timestamp": "2026-05-24T13:55:15.608670+00:00",
+    "gps": {
+      "latitude": 12.975659,
+      "longitude": 77.599858
+    },
+    "altitude_m": 54.79,
+    "lighting": "day",
+    "weather": "haze",
+    "scenario": "industrial_chemical_spill",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Possible toxic leakage in industrial waste zone.",
+      "event_candidates": [
+        {
+          "event_type": "hazardous_waste_exposure",
+          "confidence": 0.692,
+          "scene_description": "Possible toxic leakage in industrial waste zone.",
+          "rationale": "Scenario industrial_chemical_spill with hazardous_waste_exposure cues under day/haze. Randomization factors: crowd_density_variation, camera_angle_changes, vehicle_density_variation.",
+          "temporal_evidence": [
+            "hazardous_waste_exposure seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-industrial_chemical_spill",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  },
+  {
+    "sample_id": "industrial_chemical_spill-0009",
+    "image_ref": "airsim://synthetic/industrial_chemical_spill/frame_0009.png",
+    "timestamp": "2026-05-24T13:58:15.608670+00:00",
+    "gps": {
+      "latitude": 12.971901,
+      "longitude": 77.595506
+    },
+    "altitude_m": 55.22,
+    "lighting": "night",
+    "weather": "clear",
+    "scenario": "industrial_chemical_spill",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Possible toxic leakage in industrial waste zone.",
+      "event_candidates": [
+        {
+          "event_type": "chemical_spill",
+          "confidence": 0.631,
+          "scene_description": "Possible toxic leakage in industrial waste zone.",
+          "rationale": "Scenario industrial_chemical_spill with chemical_spill cues under night/clear. Randomization factors: weather_variation, crowd_density_variation, smoke_density.",
+          "temporal_evidence": [
+            "chemical_spill seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-industrial_chemical_spill",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  },
+  {
+    "sample_id": "industrial_chemical_spill-0010",
+    "image_ref": "airsim://synthetic/industrial_chemical_spill/frame_0010.png",
+    "timestamp": "2026-05-24T14:01:15.608670+00:00",
+    "gps": {
+      "latitude": 12.973649,
+      "longitude": 77.594314
+    },
+    "altitude_m": 61.39,
+    "lighting": "dusk",
+    "weather": "haze",
+    "scenario": "industrial_chemical_spill",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Possible toxic leakage in industrial waste zone.",
+      "event_candidates": [
+        {
+          "event_type": "toxic_leakage",
+          "confidence": 0.88,
+          "scene_description": "Possible toxic leakage in industrial waste zone.",
+          "rationale": "Scenario industrial_chemical_spill with toxic_leakage cues under dusk/haze. Randomization factors: drone_altitude_changes, camera_angle_changes, water_level.",
+          "temporal_evidence": [
+            "toxic_leakage seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-industrial_chemical_spill",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  },
+  {
+    "sample_id": "industrial_chemical_spill-0011",
+    "image_ref": "airsim://synthetic/industrial_chemical_spill/frame_0011.png",
+    "timestamp": "2026-05-24T14:04:15.608670+00:00",
+    "gps": {
+      "latitude": 12.978765,
+      "longitude": 77.596659
+    },
+    "altitude_m": 45.07,
+    "lighting": "dusk",
+    "weather": "rain",
+    "scenario": "industrial_chemical_spill",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Possible toxic leakage in industrial waste zone.",
+      "event_candidates": [
+        {
+          "event_type": "hazardous_waste_exposure",
+          "confidence": 0.866,
+          "scene_description": "Possible toxic leakage in industrial waste zone.",
+          "rationale": "Scenario industrial_chemical_spill with hazardous_waste_exposure cues under dusk/rain. Randomization factors: crowd_density_variation, smoke_density, water_level.",
+          "temporal_evidence": [
+            "hazardous_waste_exposure seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-industrial_chemical_spill",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  },
+  {
+    "sample_id": "industrial_chemical_spill-0012",
+    "image_ref": "airsim://synthetic/industrial_chemical_spill/frame_0012.png",
+    "timestamp": "2026-05-24T14:07:15.608670+00:00",
+    "gps": {
+      "latitude": 12.973387,
+      "longitude": 77.594152
+    },
+    "altitude_m": 63.52,
+    "lighting": "night",
+    "weather": "rain",
+    "scenario": "industrial_chemical_spill",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Possible toxic leakage in industrial waste zone.",
+      "event_candidates": [
+        {
+          "event_type": "chemical_spill",
+          "confidence": 0.65,
+          "scene_description": "Possible toxic leakage in industrial waste zone.",
+          "rationale": "Scenario industrial_chemical_spill with chemical_spill cues under night/rain. Randomization factors: seasonal_conditions, rain_intensity, vehicle_density_variation.",
+          "temporal_evidence": [
+            "chemical_spill seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-industrial_chemical_spill",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  },
+  {
+    "sample_id": "industrial_chemical_spill-0013",
+    "image_ref": "airsim://synthetic/industrial_chemical_spill/frame_0013.png",
+    "timestamp": "2026-05-24T14:10:15.608670+00:00",
+    "gps": {
+      "latitude": 12.973946,
+      "longitude": 77.595645
+    },
+    "altitude_m": 29.94,
+    "lighting": "dusk",
+    "weather": "cloudy",
+    "scenario": "industrial_chemical_spill",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Possible toxic leakage in industrial waste zone.",
+      "event_candidates": [
+        {
+          "event_type": "toxic_leakage",
+          "confidence": 0.656,
+          "scene_description": "Possible toxic leakage in industrial waste zone.",
+          "rationale": "Scenario industrial_chemical_spill with toxic_leakage cues under dusk/cloudy. Randomization factors: water_level, seasonal_conditions, vehicle_density_variation.",
+          "temporal_evidence": [
+            "toxic_leakage seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-industrial_chemical_spill",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  },
+  {
+    "sample_id": "industrial_chemical_spill-0014",
+    "image_ref": "airsim://synthetic/industrial_chemical_spill/frame_0014.png",
+    "timestamp": "2026-05-24T14:13:15.608670+00:00",
+    "gps": {
+      "latitude": 12.972338,
+      "longitude": 77.59325
+    },
+    "altitude_m": 60.37,
+    "lighting": "dusk",
+    "weather": "rain",
+    "scenario": "industrial_chemical_spill",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Possible toxic leakage in industrial waste zone.",
+      "event_candidates": [
+        {
+          "event_type": "hazardous_waste_exposure",
+          "confidence": 0.834,
+          "scene_description": "Possible toxic leakage in industrial waste zone.",
+          "rationale": "Scenario industrial_chemical_spill with hazardous_waste_exposure cues under dusk/rain. Randomization factors: lighting_variation, smoke_density, crowd_density_variation.",
+          "temporal_evidence": [
+            "hazardous_waste_exposure seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-industrial_chemical_spill",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  },
+  {
+    "sample_id": "industrial_chemical_spill-0015",
+    "image_ref": "airsim://synthetic/industrial_chemical_spill/frame_0015.png",
+    "timestamp": "2026-05-24T14:16:15.608670+00:00",
+    "gps": {
+      "latitude": 12.971167,
+      "longitude": 77.593453
+    },
+    "altitude_m": 26.49,
+    "lighting": "foggy_day",
+    "weather": "clear",
+    "scenario": "industrial_chemical_spill",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Possible toxic leakage in industrial waste zone.",
+      "event_candidates": [
+        {
+          "event_type": "chemical_spill",
+          "confidence": 0.748,
+          "scene_description": "Possible toxic leakage in industrial waste zone.",
+          "rationale": "Scenario industrial_chemical_spill with chemical_spill cues under foggy_day/clear. Randomization factors: lighting_variation, camera_angle_changes, drone_altitude_changes.",
+          "temporal_evidence": [
+            "chemical_spill seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-industrial_chemical_spill",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  },
+  {
+    "sample_id": "industrial_chemical_spill-0016",
+    "image_ref": "airsim://synthetic/industrial_chemical_spill/frame_0016.png",
+    "timestamp": "2026-05-24T14:19:15.608670+00:00",
+    "gps": {
+      "latitude": 12.97371,
+      "longitude": 77.602494
+    },
+    "altitude_m": 52.86,
+    "lighting": "foggy_day",
+    "weather": "rain",
+    "scenario": "industrial_chemical_spill",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Possible toxic leakage in industrial waste zone.",
+      "event_candidates": [
+        {
+          "event_type": "toxic_leakage",
+          "confidence": 0.823,
+          "scene_description": "Possible toxic leakage in industrial waste zone.",
+          "rationale": "Scenario industrial_chemical_spill with toxic_leakage cues under foggy_day/rain. Randomization factors: seasonal_conditions, lighting_variation, smoke_density.",
+          "temporal_evidence": [
+            "toxic_leakage seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-industrial_chemical_spill",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  },
+  {
+    "sample_id": "industrial_chemical_spill-0017",
+    "image_ref": "airsim://synthetic/industrial_chemical_spill/frame_0017.png",
+    "timestamp": "2026-05-24T14:22:15.608670+00:00",
+    "gps": {
+      "latitude": 12.979391,
+      "longitude": 77.595797
+    },
+    "altitude_m": 52.61,
+    "lighting": "night",
+    "weather": "haze",
+    "scenario": "industrial_chemical_spill",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Possible toxic leakage in industrial waste zone.",
+      "event_candidates": [
+        {
+          "event_type": "hazardous_waste_exposure",
+          "confidence": 0.653,
+          "scene_description": "Possible toxic leakage in industrial waste zone.",
+          "rationale": "Scenario industrial_chemical_spill with hazardous_waste_exposure cues under night/haze. Randomization factors: smoke_density, camera_angle_changes, vehicle_density_variation.",
+          "temporal_evidence": [
+            "hazardous_waste_exposure seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-industrial_chemical_spill",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  },
+  {
+    "sample_id": "industrial_chemical_spill-0018",
+    "image_ref": "airsim://synthetic/industrial_chemical_spill/frame_0018.png",
+    "timestamp": "2026-05-24T14:25:15.608670+00:00",
+    "gps": {
+      "latitude": 12.976857,
+      "longitude": 77.598445
+    },
+    "altitude_m": 64.11,
+    "lighting": "dusk",
+    "weather": "clear",
+    "scenario": "industrial_chemical_spill",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Possible toxic leakage in industrial waste zone.",
+      "event_candidates": [
+        {
+          "event_type": "chemical_spill",
+          "confidence": 0.94,
+          "scene_description": "Possible toxic leakage in industrial waste zone.",
+          "rationale": "Scenario industrial_chemical_spill with chemical_spill cues under dusk/clear. Randomization factors: seasonal_conditions, crowd_density_variation, camera_angle_changes.",
+          "temporal_evidence": [
+            "chemical_spill seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-industrial_chemical_spill",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  },
+  {
+    "sample_id": "industrial_chemical_spill-0019",
+    "image_ref": "airsim://synthetic/industrial_chemical_spill/frame_0019.png",
+    "timestamp": "2026-05-24T14:28:15.608670+00:00",
+    "gps": {
+      "latitude": 12.97949,
+      "longitude": 77.601242
+    },
+    "altitude_m": 28.67,
+    "lighting": "night",
+    "weather": "clear",
+    "scenario": "industrial_chemical_spill",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Possible toxic leakage in industrial waste zone.",
+      "event_candidates": [
+        {
+          "event_type": "toxic_leakage",
+          "confidence": 0.946,
+          "scene_description": "Possible toxic leakage in industrial waste zone.",
+          "rationale": "Scenario industrial_chemical_spill with toxic_leakage cues under night/clear. Randomization factors: weather_variation, vehicle_density_variation, camera_angle_changes.",
+          "temporal_evidence": [
+            "toxic_leakage seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-industrial_chemical_spill",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  },
+  {
+    "sample_id": "industrial_chemical_spill-0020",
+    "image_ref": "airsim://synthetic/industrial_chemical_spill/frame_0020.png",
+    "timestamp": "2026-05-24T14:31:15.608670+00:00",
+    "gps": {
+      "latitude": 12.97787,
+      "longitude": 77.595052
+    },
+    "altitude_m": 58.19,
+    "lighting": "night",
+    "weather": "rain",
+    "scenario": "industrial_chemical_spill",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Possible toxic leakage in industrial waste zone.",
+      "event_candidates": [
+        {
+          "event_type": "hazardous_waste_exposure",
+          "confidence": 0.88,
+          "scene_description": "Possible toxic leakage in industrial waste zone.",
+          "rationale": "Scenario industrial_chemical_spill with hazardous_waste_exposure cues under night/rain. Randomization factors: camera_angle_changes, vehicle_density_variation, drone_altitude_changes.",
+          "temporal_evidence": [
+            "hazardous_waste_exposure seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-industrial_chemical_spill",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  },
+  {
+    "sample_id": "industrial_chemical_spill-0021",
+    "image_ref": "airsim://synthetic/industrial_chemical_spill/frame_0021.png",
+    "timestamp": "2026-05-24T14:34:15.608670+00:00",
+    "gps": {
+      "latitude": 12.97596,
+      "longitude": 77.595773
+    },
+    "altitude_m": 64.36,
+    "lighting": "night",
+    "weather": "cloudy",
+    "scenario": "industrial_chemical_spill",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Possible toxic leakage in industrial waste zone.",
+      "event_candidates": [
+        {
+          "event_type": "chemical_spill",
+          "confidence": 0.663,
+          "scene_description": "Possible toxic leakage in industrial waste zone.",
+          "rationale": "Scenario industrial_chemical_spill with chemical_spill cues under night/cloudy. Randomization factors: drone_altitude_changes, lighting_variation, weather_variation.",
+          "temporal_evidence": [
+            "chemical_spill seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-industrial_chemical_spill",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  },
+  {
+    "sample_id": "industrial_chemical_spill-0022",
+    "image_ref": "airsim://synthetic/industrial_chemical_spill/frame_0022.png",
+    "timestamp": "2026-05-24T14:37:15.608670+00:00",
+    "gps": {
+      "latitude": 12.973582,
+      "longitude": 77.600884
+    },
+    "altitude_m": 48.55,
+    "lighting": "day",
+    "weather": "rain",
+    "scenario": "industrial_chemical_spill",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Possible toxic leakage in industrial waste zone.",
+      "event_candidates": [
+        {
+          "event_type": "toxic_leakage",
+          "confidence": 0.865,
+          "scene_description": "Possible toxic leakage in industrial waste zone.",
+          "rationale": "Scenario industrial_chemical_spill with toxic_leakage cues under day/rain. Randomization factors: crowd_density_variation, weather_variation, drone_altitude_changes.",
+          "temporal_evidence": [
+            "toxic_leakage seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-industrial_chemical_spill",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  },
+  {
+    "sample_id": "industrial_chemical_spill-0023",
+    "image_ref": "airsim://synthetic/industrial_chemical_spill/frame_0023.png",
+    "timestamp": "2026-05-24T14:40:15.608670+00:00",
+    "gps": {
+      "latitude": 12.975261,
+      "longitude": 77.600457
+    },
+    "altitude_m": 44.05,
+    "lighting": "dusk",
+    "weather": "clear",
+    "scenario": "industrial_chemical_spill",
+    "instruction": "Analyze this aerial environmental scene and output structured incident reasoning.",
+    "answer": {
+      "scene_summary": "Possible toxic leakage in industrial waste zone.",
+      "event_candidates": [
+        {
+          "event_type": "hazardous_waste_exposure",
+          "confidence": 0.932,
+          "scene_description": "Possible toxic leakage in industrial waste zone.",
+          "rationale": "Scenario industrial_chemical_spill with hazardous_waste_exposure cues under dusk/clear. Randomization factors: smoke_density, rain_intensity, camera_angle_changes.",
+          "temporal_evidence": [
+            "hazardous_waste_exposure seen in previous frame context",
+            "GPS zone has related sanitation history"
+          ]
+        }
+      ]
+    },
+    "temporal_sequence_id": "seq-industrial_chemical_spill",
+    "severity": "Major Trigger",
+    "risk": "critical"
+  }
+]

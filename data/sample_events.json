@@ -1,0 +1,44 @@
+[
+  {
+    "timestamp": "2026-05-26T09:00:00+00:00",
+    "gps": {"latitude": 12.9716, "longitude": 77.5946},
+    "event_type": "overflowing_bin",
+    "confidence": 0.84,
+    "severity": "Moderate Trigger",
+    "snapshot_ref": "airsim://drone-alpha/frame/00001",
+    "drone_altitude_m": 42,
+    "drone_id": "drone-alpha",
+    "scene_description": "Overflowing garbage bin detected near market entrance.",
+    "historical_relevance_score": 0.72,
+    "environmental_risk_level": "high",
+    "escalation_status": "command_review"
+  },
+  {
+    "timestamp": "2026-05-26T09:04:00+00:00",
+    "gps": {"latitude": 12.9716, "longitude": 77.5946},
+    "event_type": "vehicle_dumping",
+    "confidence": 0.88,
+    "severity": "Moderate Trigger",
+    "snapshot_ref": "airsim://drone-alpha/frame/00002",
+    "drone_altitude_m": 44,
+    "drone_id": "drone-alpha",
+    "scene_description": "Suspicious dumping activity observed from a parked vehicle.",
+    "historical_relevance_score": 0.81,
+    "environmental_risk_level": "high",
+    "escalation_status": "command_review"
+  },
+  {
+    "timestamp": "2026-05-26T09:08:00+00:00",
+    "gps": {"latitude": 12.9721, "longitude": 77.5951},
+    "event_type": "smoke_or_fire",
+    "confidence": 0.91,
+    "severity": "Major Trigger",
+    "snapshot_ref": "airsim://drone-alpha/frame/00003",
+    "drone_altitude_m": 48,
+    "drone_id": "drone-alpha",
+    "scene_description": "Smoke detected near municipal waste accumulation area.",
+    "historical_relevance_score": 0.67,
+    "environmental_risk_level": "critical",
+    "escalation_status": "auto_dispatch"
+  }
+]

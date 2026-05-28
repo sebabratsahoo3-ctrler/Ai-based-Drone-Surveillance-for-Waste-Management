@@ -1,0 +1,33 @@
+{
+  "major_trigger": [
+    "toxic_leakage",
+    "smoke_or_fire",
+    "hazardous_waste_exposure",
+    "large_illegal_dumping",
+    "waste_burning",
+    "chemical_spill",
+    "sewage_overflow"
+  ],
+  "moderate_trigger": [
+    "overflowing_bin",
+    "repeated_sanitation_violation",
+    "public_spitting",
+    "garbage_dumping",
+    "drain_blockage",
+    "night_dumping",
+    "vehicle_dumping"
+  ],
+  "minor_trigger": [
+    "roadside_littering",
+    "outside_bin_waste",
+    "temporary_waste_accumulation",
+    "isolated_garbage_objects"
+  ],
+  "escalation": {
+    "auto_dispatch": ["critical risk with major trigger"],
+    "command_review": ["major trigger", "repeated moderate incident"],
+    "watchlist": ["moderate trigger"],
+    "log_only": ["minor trigger"]
+  }
+}
+

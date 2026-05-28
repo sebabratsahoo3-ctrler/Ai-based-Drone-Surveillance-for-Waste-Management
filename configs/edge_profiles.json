@@ -1,0 +1,36 @@
+{
+  "jetson_nano_4gb": {
+    "default_model": "smolvlm-int8",
+    "verification_model": "phi3-vision-int4",
+    "runtime": "ONNX Runtime with TensorRT execution provider",
+    "quantization": ["INT8", "INT4"],
+    "max_ram_mb": 4096,
+    "frame_strategy": "sparse patrol frames plus event-triggered bursts",
+    "resolution_policy": {
+      "patrol": [640, 360],
+      "hazard": [768, 432],
+      "low_power": [384, 216]
+    }
+  },
+  "raspberry_pi_ai_4gb": {
+    "default_model": "nanovlm-int8",
+    "verification_model": "mobilevlm-int8",
+    "runtime": "ONNX Runtime or accelerator vendor runtime",
+    "quantization": ["INT8"],
+    "max_ram_mb": 4096,
+    "frame_strategy": "low-power sparse inference with central verification"
+  },
+  "intel_ncs2": {
+    "default_model": "mobilevlm-int8",
+    "runtime": "OpenVINO / ONNX Runtime",
+    "quantization": ["INT8"],
+    "frame_strategy": "ROI crop inference with local vector cache"
+  },
+  "coral_tpu_supported": {
+    "default_model": "nanovlm-int8",
+    "runtime": "TFLite Edge TPU for auxiliary encoders plus CPU language head",
+    "quantization": ["INT8"],
+    "frame_strategy": "tiny overview frames with triggered high-priority crops"
+  }
+}
+

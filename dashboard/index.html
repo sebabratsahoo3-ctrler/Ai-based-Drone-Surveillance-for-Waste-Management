@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Environmental VLM OS</title>
+    <link rel="stylesheet" href="/dashboard/styles.css" />
+  </head>
+  <body>
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">AI</div>
+        <div>
+          <h1>Environmental VLM OS</h1>
+          <p>Central command</p>
+        </div>
+      </div>
+      <nav class="nav">
+        <button class="active" data-view="overview">Overview</button>
+        <button data-view="incidents">Incidents</button>
+        <button data-view="heatmap">Heatmap</button>
+        <button data-view="fleet">Fleet</button>
+      </nav>
+      <section class="filters">
+        <label>
+          Severity
+          <select id="severityFilter">
+            <option value="all">All</option>
+            <option value="Major Trigger">Major</option>
+            <option value="Moderate Trigger">Moderate</option>
+            <option value="Minor Trigger">Minor</option>
+          </select>
+        </label>
+        <label class="toggle">
+          <input id="autoRefresh" type="checkbox" checked />
+          <span>Live mode</span>
+        </label>
+      </section>
+    </aside>
+
+    <main class="shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Autonomous aerial sanitation intelligence</p>
+          <h2 id="viewTitle">Overview</h2>
+        </div>
+        <div class="status-pill">
+          <span class="pulse"></span>
+          <span>4 drones linked</span>
+        </div>
+      </header>
+
+      <section class="metrics">
+        <article>
+          <span>Active Events</span>
+          <strong id="activeEvents">0</strong>
+        </article>
+        <article>
+          <span>Critical Risk</span>
+          <strong id="criticalEvents">0</strong>
+        </article>
+        <article>
+          <span>Auto Dispatch</span>
+          <strong id="dispatchEvents">0</strong>
+        </article>
+        <article>
+          <span>Hotspot Score</span>
+          <strong id="hotspotScore">0</strong>
+        </article>
+      </section>
+
+      <section class="workbench">
+        <div class="map-panel">
+          <div class="map-toolbar">
+            <span>GPS incident map</span>
+            <div class="legend">
+              <i class="major"></i> Major
+              <i class="moderate"></i> Moderate
+              <i class="minor"></i> Minor
+            </div>
+          </div>
+          <div id="mapCanvas" class="map-canvas"></div>
+        </div>
+
+        <div class="side-panel">
+          <div class="panel-head">
+            <h3>AI Summary</h3>
+            <span id="summaryTime">Now</span>
+          </div>
+          <p id="aiSummary"></p>
+          <div class="risk-scale">
+            <span>Low</span>
+            <div><b id="riskBar"></b></div>
+            <span>Critical</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="timeline-section">
+        <div class="panel-head">
+          <h3>Incident Timeline</h3>
+          <button id="injectEvent">Simulate Event</button>
+        </div>
+        <div id="timeline" class="timeline"></div>
+      </section>
+    </main>
+
+    <script src="/dashboard/app.js"></script>
+  </body>
+</html>
+

@@ -1,0 +1,38 @@
+[
+  {
+    "model_family": "Phi-3 Vision",
+    "method": "LoRA",
+    "quantization_aware": true,
+    "distillation_teacher": "larger_vlm_teacher",
+    "target_device": "jetson_nano_4gb",
+    "context_frames": 6,
+    "lora_rank": 16,
+    "learning_rate": 0.0002,
+    "epochs": 3,
+    "prune_ratio": 0.25
+  },
+  {
+    "model_family": "SmolVLM",
+    "method": "LoRA + distillation",
+    "quantization_aware": true,
+    "distillation_teacher": "phi3_vision_finetuned",
+    "target_device": "raspberry_pi_ai_4gb",
+    "context_frames": 5,
+    "lora_rank": 12,
+    "learning_rate": 0.00025,
+    "epochs": 4,
+    "prune_ratio": 0.2
+  },
+  {
+    "model_family": "MobileVLM",
+    "method": "QAT + pruning",
+    "quantization_aware": true,
+    "distillation_teacher": "smolvlm_teacher",
+    "target_device": "intel_ncs2",
+    "context_frames": 4,
+    "lora_rank": 8,
+    "learning_rate": 0.0003,
+    "epochs": 4,
+    "prune_ratio": 0.3
+  }
+]

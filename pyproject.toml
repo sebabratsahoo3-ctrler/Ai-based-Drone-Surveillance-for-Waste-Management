@@ -1,0 +1,30 @@
+[project]
+name = "environmental-vlm-os"
+version = "0.1.0"
+description = "VLM-centric autonomous aerial waste management and environmental intelligence OS"
+requires-python = ">=3.10"
+authors = [{ name = "Environmental Intelligence OS" }]
+dependencies = []
+
+[project.optional-dependencies]
+api = ["fastapi>=0.110", "uvicorn>=0.27"]
+airsim = ["airsim>=1.8"]
+edge = ["onnxruntime>=1.17", "numpy>=1.24"]
+train = [
+  "torch>=2.1.0",
+  "transformers>=4.45.0",
+  "peft>=0.11.0",
+  "accelerate>=0.33.0",
+  "datasets>=2.19.0",
+  "pillow>=10.0",
+  "safetensors>=0.4.0",
+]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+enviro-os-demo = "environmental_os.demo:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+

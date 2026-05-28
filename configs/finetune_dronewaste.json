@@ -1,0 +1,22 @@
+{
+  "base_model": "HuggingFaceTB/SmolVLM-256M-Instruct",
+  "output_dir": "models/dronewaste-smolvlm-lora",
+  "dataset_json": "data/synthetic/dronewaste_vlm_dataset.json",
+  "lora_r": 8,
+  "lora_alpha": 16,
+  "lora_dropout": 0.05,
+  "learning_rate": 2e-4,
+  "epochs": 2,
+  "max_samples": null,
+  "max_steps": null,
+  "batch_size": 1,
+  "gradient_accumulation_steps": 4,
+  "max_length": 512,
+  "save_steps": 100,
+  "logging_steps": 10,
+  "quick_mode": {
+    "max_samples": 80,
+    "max_steps": 40,
+    "epochs": 1
+  }
+}
